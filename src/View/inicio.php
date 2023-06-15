@@ -73,7 +73,7 @@
             <div class="sectionSeparator"></div>
           </div>
           <div class="col-12" style="text-align: center;">
-            <p style="text-align: justify;"> La carrera de ingeniería en sistemas computacionales permite al estudiante la oportunidad de 
+            <p style="text-align: justify;"> La carrera de ingeniería en mecatrónica permite al estudiante la oportunidad de 
               afrontar el mundo actual y obtener los conocimientos necesarios para forjar el futuro, a través del desarrollo y la creación de nuevas aplicaciones o sistemas que puedan ser de ayuda
               para una empresa y la sociedad en general.
             </p>

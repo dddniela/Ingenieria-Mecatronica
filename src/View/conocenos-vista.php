@@ -1,3 +1,11 @@
+<?php
+require_once("src/Models/Administrativo.php");
+$administrativos = new Administrativo();
+$administrativos->setConnection($conn->getDB());
+
+$coordinador = $administrativos->getCoordinador();
+$jefeDepartamento =  $administrativos->getJefeDepartamento();
+?>
 <!-- Portada -->
 <div class="row g-0">
   <div class="position-relative w-100 overflow-hidden">
@@ -59,25 +67,17 @@
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
         <div class="row g-0">
           <div class="col-12">
-            <h2 class="sectionTitle text-center font-bold m-3">Angel Miranda Juarez</h2>
+            <h2 class="sectionTitle text-center font-bold m-3">
+              <?php echo $jefeDepartamento->nombre ?>
+            </h2>
             <div class="sectionSeparator"></div>
             <h4 class="text-center fw-bold fs-3">
-              Jefe del Departamento de Metal - Mecánica
+              <?php echo $jefeDepartamento->nombrePuesto . " de " . $jefeDepartamento->nombreCarrera ?>
             </h4>
           </div>
           <div class="col-12" style="text-align: center;">
-            <!-- <h6 class="text-center fw-bold fs-6">
-              “La inteligencia consiste no solo en el conocimiento, sino también
-              en la destreza de aplicarlos en la práctica”<br />
-            </h6> -->
             <p class="" style="text-align: justify">
-              Angel Miranda Juarez, Jefe del departamento de Metal - Mecánica en el Tecnológico de Veracruz;
-              Ingeniero en Mecánica, en el cargo de jefatura del departamento, su función principal, es coordinar
-              la aplicación de programas de estudio relacionados con las áreas de sistemas y computación de las carreras
-              que se imparten en el instituto tecnológico, así mismo el desarrollo de proyectos de investigación y vinculación
-              con el sector productivo, derivados de los programas mencionados, proponiendo objetivos, metas y acciones;
-              verificar que las actividades de las áreas se realicen de acuerdo con las normas, lineamientos y procedimientos
-              establecidos con calidad y espíritu de servicio.
+              <?php echo $jefeDepartamento->descripcion ?>
             </p>
           </div>
         </div>
@@ -86,7 +86,7 @@
 
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/Docentes/angelMirandaJuarez.jpg" alt="">
+        <img class="img-fluid rounded" src='<?php echo $jefeDepartamento->imagen ?>' alt="">
       </div>
     </div>
 
@@ -94,14 +94,14 @@
 </section>
 <!--Fin Descripción Jefa/e del departamento -->
 
-<!-- Descripción Jefa/e del departamento -->
-<!-- <div class="bg-primary pt-5"></div>
+<!-- Descripción Coordinador -->
+<div class="bg-primary pt-5"></div>
 <section class="lightSection bg-light">
   <div class="row px-2 g-0">
 
-  <div class="col-lg-6 col-12 p-2 shadow-sm">
-    <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/Docentes/bereniceLagunesPadilla.webp" alt="">
+    <div class="col-lg-6 col-12 p-2 shadow-sm">
+      <div class="d-flex justify-content-center align-items-center w-100 h-100">
+        <img class="img-fluid rounded" src='<?php echo $coordinador->imagen ?>' alt="">
       </div>
     </div>
 
@@ -109,26 +109,17 @@
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
         <div class="row g-0">
           <div class="col-12">
-            <h2 class="sectionTitle text-center font-bold m-3">Berenice Lagunes Padilla</h2>
+            <h2 class="sectionTitle text-center font-bold m-3">
+              <?php echo $coordinador->nombre ?>
+            </h2>
             <div class="sectionSeparator"></div>
             <h4 class="text-center fw-bold fs-3">
-            Coordinadora de Ingeniería en Sistemas Computacionales
+              <?php echo $coordinador->nombrePuesto . " de " . $coordinador->nombreCarrera ?>
             </h4>
           </div>
           <div class="col-12 px-4" style="text-align: center;">
             <p class="" style="text-align: justify">
-              Berenice Lagunes Padilla, coordinadora de la carrera ingeniería en
-              Sistemas Computacionales en el Tecnológico de Veracruz; licenciada
-              en Ciencias de la Educación, con maestría en Educación por
-              competencias. En el cargo de coordinación, su función principal,
-              es la orientación académica de los alumnos estudiantes de dicha
-              licenciatura a lo largo de su estancia en la Institución, para un
-              correcto avance y aprovechamiento de su programa de estudios. Así
-              mismo se realizan diferentes funciones en la coordinación, como lo
-              son: consulta y cambio de NIP, realizar la estructura académica
-              con base en las estadísticas de la población inscrita y las
-              necesidades de grupos que así se generen dentro de los periodos
-              semestrales así como de cursos de verano.
+              <?php echo $coordinador->descripcion ?>
             </p>
           </div>
         </div>
@@ -137,8 +128,8 @@
 
 
   </div>
-</section> -->
-<!--Fin Descripción Jefa/e del departamento -->
+</section>
+<!--Fin Descripción Coordinador -->
 
 
 <!-- Instalaciones -->
@@ -313,8 +304,7 @@
 <div class="p-4 text-center">
   <h5 class="font-bold">Autores de la página:</h5>
   <p class="font-semibold">Estudiantes de la Generación 2018 - 2023</p>
-  <p>Daniela Castro Rodriguez, Irving Josue Naranjo Paredes, Angel Sánchez Domínguez,
-    Gabriel Escobar Medina, Nancy Daniela Mendez Arpidez, Marco Gabriel Cortés Toledo, Yelitza Magali Rosas Jiménez,
-    Ángel Manuel Sandria Pérez, Karla Mariana Cordova Vasquez e Iván de Jesús Agame Malpica</p>
+  <p>Daniela Castro Rodriguez, Nancy Daniela Mendez Arpidez, Gabriel Escobar Medina, Marco Gabriel Cortés Toledo, Yelitza Magali Rosas Jiménez,
+    </p>
 </div>
 <!-- Fin Laboratorio de cómputo intensivo -->

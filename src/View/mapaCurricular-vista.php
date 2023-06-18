@@ -187,7 +187,7 @@
 
 
     <div class="justify-content-center text-center">
-        <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://bit.ly/3XZfkOu">Descargar
+        <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/4nhashk2">Descargar
                 Retícula</a></p>
     </div>
 

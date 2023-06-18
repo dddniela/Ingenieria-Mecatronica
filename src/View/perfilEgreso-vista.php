@@ -1,3 +1,10 @@
+<?php
+require_once("src/Models/Seccion.php");
+$seccion = new Seccion();
+$seccion->setConnection($conn->getDB());
+
+$objetivo = $seccion->getObjetivo();
+?>
 <!-- Portada -->
 <div class="row g-0">
     <div class="position-relative w-100 overflow-hidden">
@@ -45,15 +52,14 @@
             <div class="d-flex justify-content-center align-items-center w-100 h-100">
                 <div class="row g-0">
                     <div class="col-12">
-                        <h2 class="sectionTitle text-center font-bold m-3">Objetivo general</h2>
+                        <h2 class="sectionTitle text-center font-bold m-3">
+                            <?php echo $objetivo->titulo ?>
+                        </h2>
                         <div class="sectionSeparator"></div>
                     </div>
                     <div class="col-12" style="text-align: center;">
                         <p style="text-align: justify;">
-                            Formar profesionistas en la Ingeniería Mecatrónica con capacidad analítica, crítica e innovadora que le
-                            permita diseñar, proyectar, construir y administrar equipos y sistemas mecatrónicos en el sector social,
-                            productivo y de servicios; así como integrar, operar y mantenerlos, con un compromiso ético y de
-                            calidad en un marco de desarrollo sustentable.
+                            <?php echo $objetivo->descripcion ?>
                         </p>
                     </div>
                 </div>

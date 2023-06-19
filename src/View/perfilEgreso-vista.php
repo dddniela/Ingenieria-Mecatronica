@@ -79,80 +79,9 @@ $objetivo = $seccion->getObjetivo();
                 <div class="sectionSeparator"></div>
 
                 <div class="row g-0">
-                    <div class="col-lg-3 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/ingenieria.PNG" alt="">
-                            <p class="textoArea">Ejerce su profesión legal y responsablemente para cumplir con las normas nacionales e
-                                internacionales que apliquen.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/topicos/ing-software-icono.PNG" alt="">
-                            <p class="textoArea">Analiza, sintetiza, diseña, simula, construye e innova productos, procesos,
-                                equipos y sistemas mecatrónicos, para impactar positivamente en su entorno con
-                                una actitud investigadora, de acuerdo
-                                a las necesidades tecnológicas, sociales actuales y emergentes.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/redes.PNG" alt="">
-                            <p class="textoArea">Instala, opera, optimiza, controla y mantiene sistemas mecatrónicos
-                                integrando tecnologías mecánicas, eléctricas, electrónicas y herramientas computacionales.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/topicos/admon-bd-icono.PNG" alt="">
-                            <p class="textoArea">Planifica, evalúa, genera, administra y transfiere proyectos industriales y
-                                de carácter social para el
-                                desarrollo tecnológico del país.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/topicos/programacion-web-icono.PNG" alt="">
-                            <p class="textoArea">Participa, coordina y/o dirige grupos multidisciplinarios a través del trabajo en equipo para asegurar
-                                la calidad, eficiencia, productividad y rentabilidad en la implementación de proyectos mecatrónicos
-                                con sentido de responsabilidad de su entorno social y cultural para un desarrollo sustentable.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/liderazgo.PNG" alt="">
-                            <p class="textoArea">Posee capacidades de liderazgo, comunicación, interrelaciones personales
-                                para transmitir ideas,
-                                facilitar conocimientos y trabajar con responsabilidad colectiva para la solución de problemas y
-                                desarrollo de proyectos con un sentido crítico y autocrítico. </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/administracion.PNG" alt="">
-                            <p class="textoArea">Desarrolla proyectos con un espíritu innovador, emprendedor y
-                                comprometido con su actualización
-                                profesional continua y autónoma, para estar a la vanguardia en los cambios científicos y
-                                tecnológicos que se dan en el ejercicio de su profesión. </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/blockchain.PNG" alt="">
-                            <p class="textoArea">Interpreta información técnica de las áreas que componen
-                                la Ingeniería Mecatrónica para la transferencia, adaptación, asimilación e innovación
-                                de tecnologías de vanguardia. </p>
-                        </div>
-                    </div>
-
+                <?php
+                    echo $seccion->imprimirDatos();
+                    ?>
                 </div>
             </section>
             <!-- Fin Puntos del perfil de egreso -->

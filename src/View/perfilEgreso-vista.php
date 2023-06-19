@@ -53,13 +53,17 @@ $objetivo = $seccion->getObjetivo();
                 <div class="row g-0">
                     <div class="col-12">
                         <h2 class="sectionTitle text-center font-bold m-3">
-                            <?php echo $objetivo->titulo ?>
+                            Objetivo general
                         </h2>
                         <div class="sectionSeparator"></div>
                     </div>
                     <div class="col-12" style="text-align: center;">
                         <p style="text-align: justify;">
-                            <?php echo $objetivo->descripcion ?>
+                            <?php
+                            if ($objetivo) {
+                                echo $objetivo->descripcion;
+                            }
+                            ?>
                         </p>
                     </div>
                 </div>
@@ -79,8 +83,8 @@ $objetivo = $seccion->getObjetivo();
                 <div class="sectionSeparator"></div>
 
                 <div class="row g-0">
-                <?php
-                    echo $seccion->imprimirDatos();
+                    <?php
+                    echo $seccion->imprimirPerfilEgreso();
                     ?>
                 </div>
             </section>

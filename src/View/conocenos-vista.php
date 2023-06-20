@@ -68,16 +68,28 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
         <div class="row g-0">
           <div class="col-12">
             <h2 class="sectionTitle text-center font-bold m-3">
-              <?php echo $jefeDepartamento->nombre ?>
+              <?php
+              if ($jefeDepartamento) {
+                echo $jefeDepartamento->nombre;
+              }
+              ?>
             </h2>
             <div class="sectionSeparator"></div>
             <h4 class="text-center fw-bold fs-3">
-              <?php echo $jefeDepartamento->nombrePuesto . " de " . $jefeDepartamento->nombreCarrera ?>
+              <?php
+              if ($jefeDepartamento) {
+                echo $jefeDepartamento->nombrePuesto . " de Metal - Mecánica";
+              }
+              ?>
             </h4>
           </div>
           <div class="col-12" style="text-align: center;">
             <p class="" style="text-align: justify">
-              <?php echo $jefeDepartamento->descripcion ?>
+              <?php
+              if ($jefeDepartamento) {
+                echo $jefeDepartamento->descripcion;
+              }
+              ?>
             </p>
           </div>
         </div>
@@ -86,7 +98,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src='<?php echo $jefeDepartamento->imagen ?>' alt="">
+        <img class="img-fluid rounded" src='<?php if ($jefeDepartamento)  echo $jefeDepartamento->imagen; ?>' alt="">
       </div>
     </div>
 
@@ -101,7 +113,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src='<?php echo $coordinador->imagen ?>' alt="">
+        <img class="img-fluid rounded" src='<?php if ($coordinador) echo $coordinador->imagen; ?>' alt="">
       </div>
     </div>
 
@@ -110,22 +122,33 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
         <div class="row g-0">
           <div class="col-12">
             <h2 class="sectionTitle text-center font-bold m-3">
-              <?php echo $coordinador->nombre ?>
+              <?php
+              if ($coordinador) {
+                echo $coordinador->nombre;
+              }
+              ?>
             </h2>
             <div class="sectionSeparator"></div>
             <h4 class="text-center fw-bold fs-3">
-              <?php echo $coordinador->nombrePuesto . " de " . $coordinador->nombreCarrera ?>
+              <?php
+              if ($coordinador) {
+                echo $coordinador->nombrePuesto . " de " . $coordinador->nombreCarrera;
+              }
+              ?>
             </h4>
           </div>
           <div class="col-12 px-4" style="text-align: center;">
             <p class="" style="text-align: justify">
-              <?php echo $coordinador->descripcion ?>
+              <?php
+              if ($coordinador) {
+                echo $coordinador->descripcion;
+              }
+              ?>
             </p>
           </div>
         </div>
       </div>
     </div>
-
 
   </div>
 </section>
@@ -304,7 +327,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 <div class="p-4 text-center">
   <h5 class="font-bold">Autores de la página:</h5>
   <p class="font-semibold">Estudiantes de la Generación 2018 - 2023</p>
-  <p>Daniela Castro Rodriguez, Nancy Daniela Mendez Arpidez, Gabriel Escobar Medina, Marco Gabriel Cortés Toledo y Yelitza Magali Rosas Jiménez
-  </p>
+  <p>Daniela Castro Rodriguez, Nancy Daniela Mendez Arpidez, Marco Gabriel Cortés Toledo,
+    Yelitza Magali Rosas Jiménez, Eric Manuel Montalvo Cruz y Gabriel Escobar Medina</p>
 </div>
 <!-- Fin Laboratorio de cómputo intensivo -->

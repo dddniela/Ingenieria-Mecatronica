@@ -84,10 +84,12 @@ class Seccion
             while ($row = $resultSet->fetch_assoc()) {
                 $descripcion = $row['descripcion'];
                 $imagen = $row['imagen'];
-                $tabla .=  "<div class='col-lg-3 col-sm-6 text-center p-3'>
-                                <div class='area shadow-sm p-4'>
-                                    <img class='imagenArea items-center' src='$imagen' alt=''>
-                                    <p class='textoArea'>$descripcion</p>
+                $tabla .= "<div class='col-lg-6 col-sm-6 text-start p-3'>
+                            <div class='area shadow-sm p-4'>
+                                <img class='my-4 mx-4' style='float: left;' src='$imagen' alt='' height='60px'>
+                                    <p class='textoArea' style='text-align: justify;'>
+                                    $descripcion 
+                                    </p>
                                 </div>
                             </div>";
             }

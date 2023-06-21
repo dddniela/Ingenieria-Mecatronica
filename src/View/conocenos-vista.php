@@ -157,288 +157,203 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 
 <!-- Instalaciones -->
 <div class="bg-primary pt-5"></div>
-<section class="seccionInstalaciones bg-dark">
-  <div class="row px-2 g-0">
-    <div class="col-lg-6 col-12 py-4">
-      <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <div class="row g-0">
-          <div class="col-12">
-            <h2 class="tituloSeccionOscura text-center font-bold m-3">
-              Instalaciones
-            </h2>
-            <div class="separadorSeccionOscura"></div>
-            <h4 class="text-center text-light fw-bold fs-3">
-              Laboratorios de cómputo
-            </h4>
-          </div>
-          <div class="col-12">
-            <h6 class="text-center text-warning fw-bold fs-6">
-              “El verdadero progreso es el que pone la tecnología al alcance de
-              todos.”<br />
-            </h6>
-
-            <p class="text-light" style="text-align: justify">
-              El departamento de sistemas y computación cuenta con diversos
-              laboratorios de equipo de cómputo en dónde los estudiantes podrán
-              desempañarse en desarrollar diversos programas, aplicaciones y
-              proyectos a lo largo de sus clases prácticas en la carrera de
-              ingeniería en sistemas computacionales. <br /><br />
-              Los laboratorios de cómputo están orientados a servir como
-              herramientas de aprendizaje y apoyo didáctico tanto para los
-              docentes como los alumnos.
-            </p>
-            <div class="justify-content-center text-center">
-              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://bit.ly/3ZrhDeQ">
-                  Reglamento de Laboratorio</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-lg-6 col-12 p-2 d-flex justify-content-center align-items-center">
-      <!-- Galería con modal para laboratorios de cómputo -->
-      <div class="contenedor-galeria bg-dark">
-        <div class="row">
-          <div class="col-lg-6">
-            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage1">
-              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_3878.webp" alt="" />
-            </a>
-            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage2">
-              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_1110.webp" alt="" />
-            </a>
-          </div>
-
-          <div class="col-lg-6">
-            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage3">
-              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_3879.webp" alt="" />
-            </a>
-            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage4">
-              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_0959.webp" alt="" />
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- Fin Galería con modal para laboratorios de cómputo -->
-    </div>
+<section class="seccionInstalaciones bg-dark p-3">
+  <div class="row p-4 g-0">
+    <h2 class="tituloSeccionOscura text-center font-bold m-3">
+      Instalaciones
+    </h2>
+    <div class="separadorSeccionOscura"></div>
+    <h4 class="text-center text-light fw-bold fs-3">
+      Laboratorios de cómputo
+    </h4>
   </div>
-</section>
-<!--Fin Instalaciones-->
+  <div class="col-12">
+    <h6 class="text-center text-warning fw-bold fs-6">
+      “El verdadero progreso es el que pone la tecnología al alcance de
+      todos.”<br />
+    </h6>
 
-<!-- Modals de la galería-->
-<!-- Imagen 1 -->
-<div tabindex="-1" aria-labelledby="modalImage3" aria-hidden="true" class="modal fade" id="modalImage1">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/IMG_3878.webp" alt="" />
+    <p class="text-light" style="text-align: justify">
+      El departamento de sistemas y computación cuenta con diversos
+      laboratorios de equipo de cómputo en dónde los estudiantes podrán
+      desempañarse en desarrollar diversos programas, aplicaciones y
+      proyectos a lo largo de sus clases prácticas en la carrera de
+      ingeniería en sistemas computacionales. <br /><br />
+      Los laboratorios de cómputo están orientados a servir como
+      herramientas de aprendizaje y apoyo didáctico tanto para los
+      docentes como los alumnos.
+    </p>
+    <div class="justify-content-center text-center">
+      <p><a class="btn-warning btn font-bold" target="_blank" href="https://bit.ly/3ZrhDeQ">
+          Reglamento de Laboratorio</a></p>
     </div>
-  </div>
-</div>
 
-<!-- Imagen 2 -->
-<div tabindex="-1" aria-labelledby="modalImage4" aria-hidden="true" class="modal fade" id="modalImage2">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/IMG_1110.webp" alt="" />
-    </div>
-  </div>
-</div>
-
-<!-- Imagen 3 -->
-<div tabindex="-1" aria-labelledby="modalImage5" aria-hidden="true" class="modal fade" id="modalImage3">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/IMG_3879.webp" alt="" />
-    </div>
-  </div>
-</div>
-
-<!-- Imagen 4 -->
-<div tabindex="-1" aria-labelledby="modalImage6" aria-hidden="true" class="modal fade" id="modalImage4">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/IMG_0959.webp" alt="" />
-    </div>
-  </div>
-</div>
-<!-- Fin Modals de la galería-->
-
-<!-- Laboratorio de cómputo intensivo -->
-<div class="bg-primary pt-5"></div>
-<section class="seccionInstalaciones bg-dark p-2">
-
-  <!-- Galeria de imagenes -->
-  <section class="darkSection bg-dark p-2 px-4">
+    <!-- Galeria de imagenes -->
     <div class="row mb-4 px-2 g-0">
-      <div class="darkSection bg-dark">
-        <h2 class="titleDarkSection text-center font-bold">Instalaciones</h2>
-        <div class="darkSectionSeparator"></div>
-      </div>
-
-      <div class="col-lg-8 col-sm-12">
+      <div class="col-12">
         <div class="galleryContainer bg-dark">
           <div class="row g-0">
             <div class="col-md-4 px-2">
               <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage1">
-                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_4446.webp" alt="">
+                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Galeria/img-1.jpg" alt="">
               </a>
               <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage2">
-                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Venus.webp" alt="">
+                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Galeria/img-2.jpg" alt="">
               </a>
               <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage3">
-                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER.webp" alt="">
+                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Galeria/img-3.jpg" alt="">
+              </a>
+              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage4">
+                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Galeria/img-4.jpg" alt="">
               </a>
             </div>
 
             <div class="col-md-4 px-2">
-              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage4">
-                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_2253.webp" alt="">
-              </a>
               <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage5">
-                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_0456.webp" alt="">
+                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Galeria/img-5.jpg" alt="">
               </a>
               <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage6">
-                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_0579.webp" alt="">
+                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Galeria/img-6.jpg" alt="">
+              </a>
+              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage7">
+                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Galeria/img-7.jpg" alt="">
+              </a>
+              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage8">
+                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Galeria/img-8.jpg" alt="">
               </a>
             </div>
 
             <div class="col-md-4 px-2">
-              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage7">
-                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_1110.webp" alt="">
-              </a>
-              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage8">
-                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_1713.webp" alt="">
-              </a>
               <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage9">
-                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_3879.webp" alt="">
+                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Galeria/img-9.jpg" alt="">
               </a>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-sm-12">
-        <div class="galleryContainer bg-dark">
-          <div class="row g-0">
-            <div class="col-12 px-2">
               <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage10">
-                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_2102.webp" alt="">
+                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Galeria/img-10.jpg" alt="">
               </a>
               <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage11">
-                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_3878.webp" alt="">
+                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Galeria/img-11.jpg" alt="">
+              </a>
+              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage12">
+                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Galeria/img-12.jpg" alt="">
               </a>
             </div>
-
 
           </div>
         </div>
       </div>
-
     </div>
-  </section>
-  <!-- Fin Galeria de imagenes -->
+</section>
+<!-- Fin Galeria de imagenes -->
 
 
-  <!-- Modals de la galería-->
-  <div tabindex="-1" aria-labelledby="modalImage1" aria-hidden="true" class="modal fade" id="modalImage1">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-      <div class="modal-content bg-transparent text-white text-center">
-        <img src="img/IMG_4446.webp" alt="">
-        <p>Logo del Instituto Tecnológico de México Veracruz</p>
-      </div>
+<!-- Modals de la galería-->
+<div tabindex="-1" aria-labelledby="modalImage1" aria-hidden="true" class="modal fade" id="modalImage1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-transparent text-white text-center">
+      <img src="img/Galeria/img-1.jpg" alt="">
+      <!-- <p>Logo del Instituto Tecnológico de México Veracruz</p> -->
     </div>
   </div>
+</div>
 
-  <div tabindex="-1" aria-labelledby="modalImage2" aria-hidden="true" class="modal fade" id="modalImage2">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-      <div class="modal-content bg-transparent text-white text-center">
-        <img src="img/Venus.webp" alt="">
-        <p>Estatua Venus</p>
-      </div>
+<div tabindex="-1" aria-labelledby="modalImage2" aria-hidden="true" class="modal fade" id="modalImage2">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-transparent text-white text-center">
+      <img src="img/Galeria/img-2.jpg" alt="">
+      <!-- <p>Estatua Venus</p> -->
     </div>
   </div>
+</div>
 
-  <div tabindex="-1" aria-labelledby="modalImage3" aria-hidden="true" class="modal fade" id="modalImage3">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-      <div class="modal-content bg-transparent text-white text-center">
-        <img src="img/ITVER.webp" alt="">
-        <p>Letras del Instituto Tecnológico de México Veracruz</p>
-      </div>
+<div tabindex="-1" aria-labelledby="modalImage3" aria-hidden="true" class="modal fade" id="modalImage3">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-transparent text-white text-center">
+      <img src="img/Galeria/img-3.jpg" alt="">
+      <!-- <p>Letras del Instituto Tecnológico de México Veracruz</p> -->
     </div>
   </div>
+</div>
 
-  <div tabindex="-1" aria-labelledby="modalImage4" aria-hidden="true" class="modal fade" id="modalImage4">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-      <div class="modal-content bg-transparent text-white text-center">
-        <img src="img/IMG_2253.webp" alt="">
-        <p>Áreas recreativas</p>
-      </div>
+<div tabindex="-1" aria-labelledby="modalImage4" aria-hidden="true" class="modal fade" id="modalImage4">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-transparent text-white text-center">
+      <img src="img/Galeria/img-4.jpg" alt="">
+      <!-- <p>Áreas recreativas</p> -->
     </div>
   </div>
+</div>
 
-  <div tabindex="-1" aria-labelledby="modalImage5" aria-hidden="true" class="modal fade" id="modalImage5">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-      <div class="modal-content bg-transparent text-white text-center">
-        <img src="img/IMG_0456.webp" alt="">
-        <p>Áreas recreativas</p>
-      </div>
+<div tabindex="-1" aria-labelledby="modalImage5" aria-hidden="true" class="modal fade" id="modalImage5">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-transparent text-white text-center">
+      <img src="img/Galeria/img-5.jpg" alt="">
+      <!-- <p>Áreas recreativas</p> -->
     </div>
   </div>
+</div>
 
-  <div tabindex="-1" aria-labelledby="modalImage6" aria-hidden="true" class="modal fade" id="modalImage6">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-      <div class="modal-content bg-transparent text-white text-center">
-        <img src="img/IMG_0579.webp" alt="">
-        <p>Edificio E</p>
-      </div>
+<div tabindex="-1" aria-labelledby="modalImage6" aria-hidden="true" class="modal fade" id="modalImage6">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-transparent text-white text-center">
+      <img src="img/Galeria/img-6.jpg" alt="">
+      <!-- <p>Edificio E</p> -->
     </div>
   </div>
+</div>
 
-  <div tabindex="-1" aria-labelledby="modalImage7" aria-hidden="true" class="modal fade" id="modalImage7">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-      <div class="modal-content bg-transparent text-white text-center">
-        <img src="img/IMG_1110.webp" alt="">
-        <p>Clúster del Laboratorio de Cómputo Intensivo</p>
-      </div>
+<div tabindex="-1" aria-labelledby="modalImage7" aria-hidden="true" class="modal fade" id="modalImage7">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-transparent text-white text-center">
+      <img src="img/Galeria/img-7.jpg" alt="">
+      <!-- <p>Clúster del Laboratorio de Cómputo Intensivo</p> -->
     </div>
   </div>
+</div>
 
-  <div tabindex="-1" aria-labelledby="modalImage8" aria-hidden="true" class="modal fade" id="modalImage8">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-      <div class="modal-content bg-transparent text-white text-center">
-        <img src="img/IMG_1713.webp" alt="">
-        <p>Laboratorio de Cómputo Intensivo</p>
-      </div>
+<div tabindex="-1" aria-labelledby="modalImage8" aria-hidden="true" class="modal fade" id="modalImage8">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-transparent text-white text-center">
+      <img src="img/Galeria/img-8.jpg" alt="">
+      <!-- <p>Laboratorio de Cómputo Intensivo</p> -->
     </div>
   </div>
+</div>
 
-  <div tabindex="-1" aria-labelledby="modalImage9" aria-hidden="true" class="modal fade" id="modalImage9">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-      <div class="modal-content bg-transparent text-white text-center">
-        <img src="img/IMG_3879.webp" alt="">
-        <p>Laboratorio de cómputo</p>
-      </div>
+<div tabindex="-1" aria-labelledby="modalImage9" aria-hidden="true" class="modal fade" id="modalImage9">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-transparent text-white text-center">
+      <img src="img/Galeria/img-9.jpg" alt="">
+      <!-- <p>Laboratorio de cómputo</p> -->
     </div>
   </div>
+</div>
 
-  <div tabindex="-1" aria-labelledby="modalImage10" aria-hidden="true" class="modal fade" id="modalImage10">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-      <div class="modal-content bg-transparent text-white text-center">
-        <img src="img/IMG_2102.webp" alt="">
-        <p>Edificio U: Sistemas</p>
-      </div>
+<div tabindex="-1" aria-labelledby="modalImage10" aria-hidden="true" class="modal fade" id="modalImage10">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-transparent text-white text-center">
+      <img src="img/Galeria/img-10.jpg" alt="">
+      <!-- <p>Edificio U: Sistemas</p> -->
     </div>
   </div>
+</div>
 
-  <div tabindex="-1" aria-labelledby="modalImage11" aria-hidden="true" class="modal fade" id="modalImage11">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-      <div class="modal-content bg-transparent text-white text-center">
-        <img src="img/IMG_3878.webp" alt="">
-        <p>Laboratorio de cómputo</p>
-      </div>
+<div tabindex="-1" aria-labelledby="modalImage11" aria-hidden="true" class="modal fade" id="modalImage11">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-transparent text-white text-center">
+      <img src="img/Galeria/img-11.jpg" alt="">
+      <!-- <p>Laboratorio de cómputo</p> -->
     </div>
   </div>
+</div>
+
+<div tabindex="-1" aria-labelledby="modalImage12" aria-hidden="true" class="modal fade" id="modalImage12">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-transparent text-white text-center">
+      <img src="img/Galeria/img-12.jpg" alt="">
+      <!-- <p>Laboratorio de cómputo</p> -->
+    </div>
+  </div>
+</div>
 </section>
 <!-- Fin Modals de la galería-->
 

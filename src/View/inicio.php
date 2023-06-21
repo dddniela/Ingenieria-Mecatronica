@@ -170,11 +170,11 @@
           </div>
           <div class="col-12 px-4" style="text-align: center;">
             <p class="text-light" style="text-align: justify;">
-              El departamento de sistemas y computación cuenta con diversos laboratorios de equipo de cómputo en dónde los
+              El departamento de metal - mecánica cuenta con diversos laboratorios de equipo de cómputo en dónde los
               estudiantes podrán desempañarse en desarrollar diversos programas, aplicaciones y proyectos a lo largo de sus
               clases prácticas en la carrera de ingeniería en sistemas computacionales. <br /><br />
 
-              Los laboratorios de cómputo están orientados a servir como herramientas de aprendizaje y apoyo didáctico tanto
+              Los laboratorios están orientados a servir como herramientas de aprendizaje y apoyo didáctico tanto
               para los docentes como los alumnos.
             </p>
             <a class="btn btn-warning font-bold" href="?option=4" role="button">¡Explorar!</a>

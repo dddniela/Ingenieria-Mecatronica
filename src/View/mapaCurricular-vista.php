@@ -3,8 +3,8 @@
         <img class="w-100 img-fluid" src="img/IMG_7338.jpg" alt="">
         <div class="position-absolute top-50 start-50 translate-middle w-100">
             <div class="d-flex flex-column justify-content-center align-items-center text-center">
-                <h1 class="fw-bold text-warning">Mapa Curricular</h1>
-                <h1 class="fw-bold text-light d-md-flex d-none">Ingeniería Mecatrónica</h1>
+                <h1 class="fw-bold text-warning shadow-text">Mapa Curricular</h1>
+                <h1 class="fw-bold text-light d-md-flex d-none shadow-text">Ingeniería Mecatrónica</h1>
             </div>
         </div>
     </div>
@@ -215,8 +215,7 @@
                                 profesional de los estudiantes de las instituciones adscritas al Tecnológico Nacional de
                                 México.
                             </p>
-                            <h5 class="font-bold text-warning" style="text-align: justify">Especialidades que han
-                                existido:</h5>
+                            <h5 class="font-bold text-warning" style="text-align: justify">Especialidades actuales:</h5>
                             <div class="bg-dark">
                                 <ul class="m-3 text-light font-bold" style="text-align: justify">
                                     <?php
@@ -401,7 +400,7 @@
 
     <!-- Residencias profesionales -->
     <div class="bg-primary pt-5">
-        <img src="img/IMG_0337.webp" class="w-full" alt="">
+        <img src="img/IMG_7395.JPG" class="w-full" alt="">
         <section class="darkSection bg-dark">
             <div class="row px-2 g-0">
                 <div class="col-lg-12 col-12 py-4">
@@ -517,7 +516,7 @@
 
             <div class="col-lg-6 col-12 p-2 shadow-sm">
                 <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                    <img class="img-fluid rounded" src="img/IMG_1245.webp" alt="">
+                    <img class="img-fluid rounded" src="img/Sesion/Mecatronicos-3.webp" alt="">
                 </div>
             </div>
 

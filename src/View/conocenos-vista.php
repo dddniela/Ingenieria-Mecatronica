@@ -12,8 +12,8 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
     <img class="w-100 img-fluid" src="img/Venus-4.webp" alt="" />
     <div class="position-absolute top-50 start-50 translate-middle w-100">
       <div class="d-flex flex-column justify-content-center align-items-center text-center">
-        <h1 class="fw-bold text-warning">Conócenos</h1>
-        <h1 class="fw-bold text-light d-md-flex d-none">
+        <h1 class="fw-bold text-warning shadow-text">Conócenos</h1>
+        <h1 class="fw-bold text-light d-md-flex d-none shadow-text">
           Ingeniería Mecatrónica
         </h1>
       </div>
@@ -266,62 +266,181 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 <!-- Laboratorio de cómputo intensivo -->
 <div class="bg-primary pt-5"></div>
 <section class="seccionInstalaciones bg-dark p-2">
-  <div class="row px-2 g-0">
-    <div class="col-lg-6 col-12 p-2 shadow-sm">
-      <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img src="img/IMG_1713.webp" class="img-fluid rounded" alt="" />
+
+  <!-- Galeria de imagenes -->
+  <section class="darkSection bg-dark p-2 px-4">
+    <div class="row mb-4 px-2 g-0">
+      <div class="darkSection bg-dark">
+        <h2 class="titleDarkSection text-center font-bold">Instalaciones</h2>
+        <div class="darkSectionSeparator"></div>
       </div>
-    </div>
 
-    <div class="col-lg-6 col-12 p-4">
-      <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <div class="row g-0">
-          <div class="col-12">
-            <h2 class="tituloSeccionOscura text-center font-bold m-3">
-              Laboratorio de Cómputo Intensivo
-            </h2>
-            <div class="separadorSeccionOscura"></div>
-            <h4 class="text-center text-light fw-bold fs-3">
-              Responsable: Abelardo Rodríguez León
-            </h4>
-          </div>
-          <div class="col-12">
-            <p class="text-light" style="text-align: justify">
-              Adicionalmente a las oficinas administrativas y laboratorios de
-              cómputo, la carrera de ingeniería en sistemas computacionales
-              cuenta con el apoyo de un laboratorio de servidores en dónde el
-              alumnado tendrá la oportunidad de interactuar con clústeres con
-              diferentes enfoques tecnológicos.
-            </p>
-          </div>
-          <div class="col-12">
-            <div class="bg-dark">
-              <ul class="m-3 text-warning font-bold" style="text-align: justify">
-                <li>Agave: Clúster de alto procesamiento.</li>
-                <li>Peyote: Clúster de visualización en 4K.</li>
-                <li>Saguar: Clúster de servicios de virtualización.</li>
-                <li>Nopal: Clúster de alto rendimiento.</li>
-              </ul>
+      <div class="col-lg-8 col-sm-12">
+        <div class="galleryContainer bg-dark">
+          <div class="row g-0">
+            <div class="col-md-4 px-2">
+              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage1">
+                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_4446.webp" alt="">
+              </a>
+              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage2">
+                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Venus.webp" alt="">
+              </a>
+              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage3">
+                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER.webp" alt="">
+              </a>
             </div>
-          </div>
-          <div class="col-12">
-            <p class="text-light" style="text-align: justify">
-              El Dr. Abelardo Rodríguez León (responsable del laboratorio de
-              servidores) pone a disposición el equipo a aquellos alumnos que
-              deseen realizar proyectos, experimentos, investigaciones, realizar
-              servicio social o residencias profesionales dentro del
-              laboratorio.
 
-              <br />
-              <br />
-              Información de contacto: abelardo.rl@veracruz.tecnm.mx
-            </p>
+            <div class="col-md-4 px-2">
+              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage4">
+                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_2253.webp" alt="">
+              </a>
+              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage5">
+                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_0456.webp" alt="">
+              </a>
+              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage6">
+                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_0579.webp" alt="">
+              </a>
+            </div>
+
+            <div class="col-md-4 px-2">
+              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage7">
+                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_1110.webp" alt="">
+              </a>
+              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage8">
+                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_1713.webp" alt="">
+              </a>
+              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage9">
+                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_3879.webp" alt="">
+              </a>
+            </div>
+
           </div>
         </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-12">
+        <div class="galleryContainer bg-dark">
+          <div class="row g-0">
+            <div class="col-12 px-2">
+              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage10">
+                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_2102.webp" alt="">
+              </a>
+              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage11">
+                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_3878.webp" alt="">
+              </a>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- Fin Galeria de imagenes -->
+
+
+  <!-- Modals de la galería-->
+  <div tabindex="-1" aria-labelledby="modalImage1" aria-hidden="true" class="modal fade" id="modalImage1">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content bg-transparent text-white text-center">
+        <img src="img/IMG_4446.webp" alt="">
+        <p>Logo del Instituto Tecnológico de México Veracruz</p>
+      </div>
+    </div>
+  </div>
+
+  <div tabindex="-1" aria-labelledby="modalImage2" aria-hidden="true" class="modal fade" id="modalImage2">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content bg-transparent text-white text-center">
+        <img src="img/Venus.webp" alt="">
+        <p>Estatua Venus</p>
+      </div>
+    </div>
+  </div>
+
+  <div tabindex="-1" aria-labelledby="modalImage3" aria-hidden="true" class="modal fade" id="modalImage3">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content bg-transparent text-white text-center">
+        <img src="img/ITVER.webp" alt="">
+        <p>Letras del Instituto Tecnológico de México Veracruz</p>
+      </div>
+    </div>
+  </div>
+
+  <div tabindex="-1" aria-labelledby="modalImage4" aria-hidden="true" class="modal fade" id="modalImage4">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content bg-transparent text-white text-center">
+        <img src="img/IMG_2253.webp" alt="">
+        <p>Áreas recreativas</p>
+      </div>
+    </div>
+  </div>
+
+  <div tabindex="-1" aria-labelledby="modalImage5" aria-hidden="true" class="modal fade" id="modalImage5">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content bg-transparent text-white text-center">
+        <img src="img/IMG_0456.webp" alt="">
+        <p>Áreas recreativas</p>
+      </div>
+    </div>
+  </div>
+
+  <div tabindex="-1" aria-labelledby="modalImage6" aria-hidden="true" class="modal fade" id="modalImage6">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content bg-transparent text-white text-center">
+        <img src="img/IMG_0579.webp" alt="">
+        <p>Edificio E</p>
+      </div>
+    </div>
+  </div>
+
+  <div tabindex="-1" aria-labelledby="modalImage7" aria-hidden="true" class="modal fade" id="modalImage7">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content bg-transparent text-white text-center">
+        <img src="img/IMG_1110.webp" alt="">
+        <p>Clúster del Laboratorio de Cómputo Intensivo</p>
+      </div>
+    </div>
+  </div>
+
+  <div tabindex="-1" aria-labelledby="modalImage8" aria-hidden="true" class="modal fade" id="modalImage8">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content bg-transparent text-white text-center">
+        <img src="img/IMG_1713.webp" alt="">
+        <p>Laboratorio de Cómputo Intensivo</p>
+      </div>
+    </div>
+  </div>
+
+  <div tabindex="-1" aria-labelledby="modalImage9" aria-hidden="true" class="modal fade" id="modalImage9">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content bg-transparent text-white text-center">
+        <img src="img/IMG_3879.webp" alt="">
+        <p>Laboratorio de cómputo</p>
+      </div>
+    </div>
+  </div>
+
+  <div tabindex="-1" aria-labelledby="modalImage10" aria-hidden="true" class="modal fade" id="modalImage10">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content bg-transparent text-white text-center">
+        <img src="img/IMG_2102.webp" alt="">
+        <p>Edificio U: Sistemas</p>
+      </div>
+    </div>
+  </div>
+
+  <div tabindex="-1" aria-labelledby="modalImage11" aria-hidden="true" class="modal fade" id="modalImage11">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content bg-transparent text-white text-center">
+        <img src="img/IMG_3878.webp" alt="">
+        <p>Laboratorio de cómputo</p>
       </div>
     </div>
   </div>
 </section>
+<!-- Fin Modals de la galería-->
 
 <div class="bg-primary pt-5"></div>
 <div class="p-4 text-center">
@@ -329,5 +448,10 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
   <p class="font-semibold">Estudiantes de la Generación 2018 - 2023</p>
   <p>Daniela Castro Rodriguez, Nancy Daniela Mendez Arpidez, Marco Gabriel Cortés Toledo,
     Yelitza Magali Rosas Jiménez, Eric Manuel Montalvo Cruz y Gabriel Escobar Medina</p>
+</div>
+
+<div class="p-1 text-center">
+  <p class="font-semibold">Agradecimientos</p>
+  <p>Fernando Martinez, Eric Manuel Montalvo Cruz e Ivan Agame Malpica </p>
 </div>
 <!-- Fin Laboratorio de cómputo intensivo -->

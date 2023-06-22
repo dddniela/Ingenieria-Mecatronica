@@ -90,9 +90,9 @@
   <h2 class="sectionTitle text-center font-bold m-3">Áreas de aprendizaje</h2>
   <div class="sectionSeparator"></div>
 
-  <div class="row g-0">
-
-    <div class="col-lg-4 col-sm-6 text-center p-3">
+  <div class="row g-0 text-center">
+    <p> Información Pendiente.</p>
+    <!-- <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3.php">
           <img class="areaImage items-center" src="img/topicos/programacion-icono.PNG" alt="">
@@ -150,7 +150,7 @@
         <h3 class="areaTitle text-center font-bold text-xl">Inteligencia Artificial</h3>
         <p class="areaText">Aprende los fundamentos sobre sistemas informáticos de última generación.</p>
       </div>
-    </div>
+    </div> -->
 
   </div>
 </section>
@@ -172,7 +172,7 @@
             <p class="text-light" style="text-align: justify;">
               El departamento de metal - mecánica cuenta con diversos laboratorios de equipo de cómputo en dónde los
               estudiantes podrán desempañarse en desarrollar diversos programas, aplicaciones y proyectos a lo largo de sus
-              clases prácticas en la carrera de ingeniería en sistemas computacionales. <br /><br />
+              clases prácticas en la carrera de ingeniería mecatrónica. <br /><br />
 
               Los laboratorios están orientados a servir como herramientas de aprendizaje y apoyo didáctico tanto
               para los docentes como los alumnos.

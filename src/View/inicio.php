@@ -309,7 +309,7 @@
         </a>
         <a class="mx-2" href="https://twitter.com/TecNM_MX" target="_blank" style="text-decoration: none;">
           <div class="d-flex flex-row justify-content-center">
-            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/twitter.PNG" alt="">
+            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/twitterX.png" alt="">
           </div>
         </a>
         <a class="mx-2" href="https://www.youtube.com/user/SNESTMX" target="_blank" style="text-decoration: none;">
@@ -334,7 +334,7 @@
         </a>
         <a class="mx-2" href="https://twitter.com/tvitver" target="_blank" style="text-decoration: none;">
           <div class="d-flex flex-row justify-content-center">
-            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/twitter.PNG" alt="">
+            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/twitterX.png" alt="">
           </div>
         </a>
         <a class="mx-2" href="https://www.youtube.com/channel/UCVBkOP_rj5ulvlriG88jTzA" target="_blank" style="text-decoration: none;">

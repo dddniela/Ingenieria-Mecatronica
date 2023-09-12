@@ -12,7 +12,7 @@ $urlControl = array(
     $_SERVER['SERVER_NAME'] . "/Ingenieria-Mecatronica/?option=0"
 );
 
-$carreraID = 6;
+$programaId = 6;
 $conn = new Conexion();
 $conn->connect();
 $docente = new Docente();

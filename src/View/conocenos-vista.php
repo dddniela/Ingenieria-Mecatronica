@@ -29,7 +29,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/IMG_0474.JPG" alt="">
+        <img class="img-fluid rounded" src="img/edificio-X.JPG" alt="">
       </div>
     </div>
 
@@ -174,12 +174,10 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
     </h6>
 
     <p class="text-light" style="text-align: justify">
-      El departamento de sistemas y computación cuenta con diversos
+      El departamento de Metal - Mecánica cuenta con diversos
       laboratorios de equipo de cómputo en dónde los estudiantes podrán
-      desempañarse en desarrollar diversos programas, aplicaciones y
-      proyectos a lo largo de sus clases prácticas en la carrera de
-      ingeniería en sistemas computacionales. <br /><br />
-      Los laboratorios de cómputo están orientados a servir como
+      desempañarse en desarrollar diversos proyectos a lo largo de su trayecto estudiantil. <br /><br />
+      Los laboratorios están orientados a servir como
       herramientas de aprendizaje y apoyo didáctico tanto para los
       docentes como los alumnos.
     </p>

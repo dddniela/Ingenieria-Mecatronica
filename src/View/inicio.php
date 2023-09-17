@@ -72,9 +72,9 @@
             <div class="sectionSeparator"></div>
           </div>
           <div class="col-12" style="text-align: center;">
-            <p style="text-align: justify;"> La carrera de ingeniería en mecatrónica permite al estudiante la oportunidad de
-              afrontar el mundo actual y obtener los conocimientos necesarios para forjar el futuro, a través del desarrollo y la creación de nuevas aplicaciones o sistemas que puedan ser de ayuda
-              para una empresa y la sociedad en general.
+            <p style="text-align: justify;">Como egresado podrás dedicarte a la identificación, formulación, creación y optimización de procesos de manufactura; también de máquinas y mecanismos. <br> <br>
+              Acompañado de un programa enfocado en desarrollar sistemas inteligentes que tendrán gran relevancia en el futuro, para una amplia gama de áreas, incluyendo robótica, líneas de producción, sistemas automatizados, dispositivos médicos, automotrices y aeroespaciales, entre otros. <br> <br>
+              En el TecNM los egresados tendrán la capacidad analítica, crítica e innovadora en los sectores social, productivo y de servicios, que integren, operen y mantengan los sistemas mecatrónicos, con un compromiso ético y de calidad en un marco de desarrollo sustentable.
             </p>
             <a class="btn btn-warning font-bold" href="?option=3" role="button">¡Saber más!</a>
           </div>
@@ -90,67 +90,16 @@
   <h2 class="sectionTitle text-center font-bold m-3">Áreas de aprendizaje</h2>
   <div class="sectionSeparator"></div>
 
-  <div class="row g-0 text-center">
-    <p> Información Pendiente.</p>
-    <!-- <div class="col-lg-4 col-sm-6 text-center p-3">
-      <div class="area shadow-sm p-4">
-        <a href="?option=3.php">
-          <img class="areaImage items-center" src="img/topicos/programacion-icono.PNG" alt="">
-        </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Desarrollo de Software</h3>
-        <p class="areaText">Desarrolla programas a través de diferentes lenguajes de programación.</p>
-      </div>
-    </div>
-
-    <div class="col-lg-4 col-sm-6 text-center p-3">
-      <div class="area shadow-sm p-4">
-        <a href="?option=3">
-          <img class="areaImage items-center" src="img/topicos/ing-software-icono.PNG" alt="">
-        </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Ingeniería de Software</h3>
-        <p class="areaText">Aplica metodologías ágiles para el desarrollo eficiente de proyectos de software.</p>
-      </div>
-    </div>
-
-    <div class="col-lg-4 col-sm-6 text-center p-3">
-      <div class="area shadow-sm p-4">
-        <a href="?option=3.php">
-          <img class="areaImage items-center" src="img/topicos/admon-bd-icono.PNG" alt="">
-        </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Bases de Datos</h3>
-        <p class="areaText">Gestiona y almacena el flujo de datos de información de un sistema informático.</p>
-      </div>
-    </div>
-
-    <div class="col-lg-4 col-sm-6 text-center p-3">
-      <div class="area shadow-sm p-4">
-        <a href="?option=3">
-          <img class="areaImage items-center" src="img/topicos/programacion-web-icono.PNG" alt="">
-        </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Programación web</h3>
-        <p class="areaText">Crea y desarrolla aplicaciones y sitios web para brindar soluciones a las empresas.</p>
-      </div>
-    </div>
-
-    <div class="col-lg-4 col-sm-6 text-center p-3">
-      <div class="area shadow-sm p-4">
-        <a href="?option=3">
-          <img class="areaImage items-center" src="img/topicos/admon-red-icono.PNG" alt="">
-        </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Redes y Telecomunicaciones</h3>
-        <p class="areaText">Permite la interconexión entre distintos equipos de cómputo de forma física o virtual.</p>
-      </div>
-    </div>
-
-    <div class="col-lg-4 col-sm-6 text-center p-3">
-      <div class="area shadow-sm p-4">
-        <a href="?option=3">
-          <img class="areaImage items-center" src="img/topicos/inteligencia-artificial-icono.PNG" alt="">
-        </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Inteligencia Artificial</h3>
-        <p class="areaText">Aprende los fundamentos sobre sistemas informáticos de última generación.</p>
-      </div>
-    </div> -->
+  <div class="row g-0 text-center px-5">
+    <p> Dentro del plan de estudios de la carrera de Ingeniería Mecatrónica, se cuenta con asignaturas diseñadas para cubrir todos los
+      aspectos que se plantean en los propósitos del perfil de egreso de la carrera, asignaturas de ciencias básicas, Ciencias Sociales y Humanidades,
+      Ciencias de la Ingeniería e Ingeniería Aplicada desde asignaturas como Taller de ética, desarrollo sustentable y/o Taller de investigación I y
+      II, hasta aquellas que aportan conocimientos específicos del área de computación, mecánica y electrónica con lo cual permitirá al
+      estudiante generar su conocimiento, administrar e implementar tecnologías en las ramas mencionadas.
+      <br> <br>
+      Al tener este contexto dentro del plan de estudios, esto se vincula con un sistema de evaluación basado en el modelo por competencias
+      por cada una de las asignaturas que contiene. Adaptándose al entorno regional mediante el diseño e implementación de módulos de especialidad.
+    </p>
 
   </div>
 </section>
@@ -185,7 +134,7 @@
 
     <div class="col-lg-6 col-12 p-4 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/IMG_0474.JPG" alt="">
+        <img class="img-fluid rounded" src="img/edificio-X.jpg" alt="">
       </div>
     </div>
 

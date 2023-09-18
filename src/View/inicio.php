@@ -14,7 +14,7 @@
           <div class="carousel-caption d-flex flex-column">
             <h1 class="mainTitle text-center font-bold m-2 shadow-text">Ingeniería Mecatrónica</h1>
             <h2 class="mainSubtitle text-center font-bold shadow-text">Aprende nuevas tecnologías</h1>
-              <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=5">Explorar</a></p>
+              <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=1">Explorar</a></p>
           </div>
         </div>
       </div>
@@ -25,7 +25,7 @@
           <div class="carousel-caption d-flex flex-column">
             <h1 class="mainTitle text-center font-bold m-2 shadow-text">Ingeniería Mecatrónica</h1>
             <h2 class="mainSubtitle text-center font-bold d-none d-md-block shadow-text">Colabora con la comunidad</h1>
-              <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=1">Explorar</a></p>
+              <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=5">Explorar</a></p>
           </div>
         </div>
       </div>

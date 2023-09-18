@@ -9,7 +9,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 <!-- Portada -->
 <div class="row g-0">
   <div class="position-relative w-100 overflow-hidden">
-    <img class="w-100 img-fluid" src="img/Venus-4.webp" alt="" />
+    <img class="w-100 img-fluid" src="img/ITVER-7.webp" alt="" />
     <div class="position-absolute top-50 start-50 translate-middle w-100">
       <div class="d-flex flex-column justify-content-center align-items-center text-center">
         <h1 class="fw-bold text-warning shadow-text">Conócenos</h1>
@@ -157,12 +157,9 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 
 <!-- Instalaciones -->
 <div class="bg-primary pt-5"></div>
-<section class="seccionInstalaciones bg-dark p-3">
-  <div class="row p-4 g-0">
-    <h2 class="tituloSeccionOscura text-center font-bold m-3">
-      Instalaciones
-    </h2>
-    <div class="separadorSeccionOscura"></div>
+<section class="darkSection bg-dark p-2 px-4 col g-0">
+    <h2 class="titleDarkSection text-center font-bold m-3">Instalaciones</h2>
+    <div class="darkSectionSeparator"></div>
     <h4 class="text-center text-light fw-bold fs-3">
       Laboratorios de cómputo
     </h4>
@@ -180,11 +177,40 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
       Los laboratorios están orientados a servir como
       herramientas de aprendizaje y apoyo didáctico tanto para los
       docentes como los alumnos.
+
+      En cada laboratorio se encuentra personal de apoyo al maestro en turno para la supervisión y vigilancia en la realización de las practicas,
+      así como para estar pendiente de que los alumnos acaten las normas y reglamentos del laboratorio teniendo autoridad para reportar cualquier
+      conducta anómala o contraria a estos al jefe del departamento correspondiente y en caso necesario, al comité académico, donde se estipulará
+      una sanción para el alumno, misma que deberá cumplir. <br /><br />
+      Los reglamentos de laboratorio son particulares de la naturaleza de cada uno. Se generaliza en cuanto al orden y limpieza de los equipos,
+      así como la conducta de los alumnos en estos. En cada laboratorio los jefes y auxiliares son los encargados y responsables de hacer cumplir
+      las disposiciones para hacer uso de las salas del laboratorio y talleres.
     </p>
-    <div class="justify-content-center text-center">
-      <p><a class="btn-warning btn font-bold" target="_blank" href="https://bit.ly/3ZrhDeQ">
-          Reglamento de Laboratorio</a></p>
-    </div>
+
+    <!-- <div class="row g-0">
+
+      <div class="col-lg-4 col-sm-6 text-center p-3">
+        <div class="area shadow-sm p-4 rounded-3">
+          <img class="img-fluid w-100 shadow-1-strong rounded mb-4 p-1" src="img/Reglamentos/reglamento-UDIM.png" alt="">
+          <h3 class="areaTitle text-center font-bold text-xl">Laboratorio de Ingeniería Mecánica</h3>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 text-center p-3">
+        <div class="area shadow-sm p-4 rounded-3">
+          <img class="img-fluid w-100 shadow-1-strong rounded mb-4  p-1" src="img/Reglamentos/reglamento-LabIngMecanica.png" alt="">
+          <h3 class="areaTitle text-center font-bold text-xl">Laboratorio de Ingeniería Mecánica</h3>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 text-center p-3">
+        <div class="area shadow-sm p-4 rounded-3">
+          <img class="img-fluid w-90 shadow-1-strong rounded mb-4  p-1" src="img/Reglamentos/reglamento-AulaLIM.png" alt="">
+          <h3 class="areaTitle text-center font-bold text-xl">Laboratorio de Aula LIM</h3>
+        </div>
+      </div>
+
+    </div> -->
 
     <!-- Galeria de imagenes -->
     <div class="row mb-4 px-2 g-0">
@@ -192,6 +218,9 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
         <div class="galleryContainer bg-dark">
           <div class="row g-0">
             <div class="col-md-4 px-2">
+              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalReglamento1">
+                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Reglamentos/reglamento-UDIM.png" alt="">
+              </a>
               <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage1">
                 <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Galeria/img-1.jpg" alt="">
               </a>
@@ -207,6 +236,9 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
             </div>
 
             <div class="col-md-4 px-2">
+              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalReglamento2">
+                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Reglamentos/reglamento-LabIngMecanica.png" alt="">
+              </a>
               <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage5">
                 <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Galeria/img-5.jpg" alt="">
               </a>
@@ -222,6 +254,9 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
             </div>
 
             <div class="col-md-4 px-2">
+              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalReglamento3">
+                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Reglamentos/reglamento-AulaLIM.png" alt="">
+              </a>
               <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage9">
                 <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Galeria/img-9.jpg" alt="">
               </a>
@@ -245,6 +280,33 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 
 
 <!-- Modals de la galería-->
+<div tabindex="-1" aria-labelledby="modalImage1" aria-hidden="true" class="modal fade" id="modalReglamento1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-transparent text-white text-center">
+      <img src="img/Reglamentos/reglamento-UDIM.png" alt="">
+      <!-- <p>Logo del Instituto Tecnológico de México Veracruz</p> -->
+    </div>
+  </div>
+</div>
+
+<div tabindex="-1" aria-labelledby="modalImage1" aria-hidden="true" class="modal fade" id="modalReglamento2">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-transparent text-white text-center">
+      <img src="img/Reglamentos/reglamento-LabIngMecanica.png" alt="">
+      <!-- <p>Logo del Instituto Tecnológico de México Veracruz</p> -->
+    </div>
+  </div>
+</div>
+
+<div tabindex="-1" aria-labelledby="modalImage1" aria-hidden="true" class="modal fade" id="modalReglamento3">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-transparent text-white text-center">
+      <img src="img/Reglamentos/reglamento-AulaLIM.png" alt="">
+      <!-- <p>Logo del Instituto Tecnológico de México Veracruz</p> -->
+    </div>
+  </div>
+</div>
+
 <div tabindex="-1" aria-labelledby="modalImage1" aria-hidden="true" class="modal fade" id="modalImage1">
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content bg-transparent text-white text-center">

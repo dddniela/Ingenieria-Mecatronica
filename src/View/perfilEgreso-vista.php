@@ -84,7 +84,6 @@ $objetivo = $seccion->getObjetivo();
                 </div>
             </section>
             <!-- Fin Puntos del perfil de egreso -->
-
         </div>
     </div>
 </div>

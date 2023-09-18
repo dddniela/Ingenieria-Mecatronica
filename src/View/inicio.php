@@ -9,33 +9,33 @@
 
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/IMG_7394.JPG" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/IMG_194.png" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption d-flex flex-column">
             <h1 class="mainTitle text-center font-bold m-2 shadow-text">Ingeniería Mecatrónica</h1>
-            <h2 class="mainSubtitle text-center font-bold shadow-text">Aprende nuevas tecnologías</h1>
+            <h2 class="mainSubtitle text-center font-bold shadow-text">Fomenta la colaboración interdisciplinaria y preparate para contribuir en campos como medicina y automotriz.</h1>
               <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=1">Explorar</a></p>
           </div>
         </div>
       </div>
 
       <div class="carousel-item">
-        <img src="img/IMG_230601.jpg" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/IMG_195.png" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption d-flex flex-column">
             <h1 class="mainTitle text-center font-bold m-2 shadow-text">Ingeniería Mecatrónica</h1>
-            <h2 class="mainSubtitle text-center font-bold d-none d-md-block shadow-text">Colabora con la comunidad</h1>
+            <h2 class="mainSubtitle text-center font-bold d-none d-md-block shadow-text">Combina mecánica, electrónica e informática para automatizar la industria y crear tecnologías innovadoras.</h1>
               <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=5">Explorar</a></p>
           </div>
         </div>
       </div>
 
       <div class="carousel-item">
-        <img src="img/ITVER-1.webp" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/IMG_196.png" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption d-flex flex-column">
             <h1 class="mainTitle text-center font-bold m-2 shadow-text">Ingeniería Mecatrónica</h1>
-            <h2 class="mainSubtitle text-center font-bold shadow-text">Desarrolla nuevos horizontes</h1>
+            <h2 class="mainSubtitle text-center font-bold shadow-text">Diseña robots y sistemas inteligentes para enfrentar la era de la robótica y la inteligencia artificial.</h1>
               <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=3">Explorar</a>
               </p>
           </div>
@@ -122,12 +122,11 @@
           </div>
           <div class="col-12 px-4" style="text-align: center;">
             <p class="text-light" style="text-align: justify;">
-              El departamento de metal - mecánica cuenta con diversos laboratorios de equipo de cómputo en dónde los
-              estudiantes podrán desempañarse en desarrollar diversos programas, aplicaciones y proyectos a lo largo de sus
-              clases prácticas en la carrera de ingeniería mecatrónica. <br /><br />
+              El departamento de metal - mecánica cuenta con diversos laboratorios dónde los
+              estudiantes podrán desempañarse en desarrollar diversas aplicaciones y proyectos a lo largo de sus
+              clases prácticas en la carrera de Ingeniería Mecatrónica. <br /><br />
 
-              Los laboratorios están orientados a servir como herramientas de aprendizaje y apoyo didáctico tanto
-              para los docentes como los alumnos.
+              En cada laboratorio se encuentra personal de apoyo al maestro en turno para la supervisión y vigilancia en la realización de las practicas, así como para estar pendiente de que los alumnos acaten las normas y reglamentos del laboratorio.
             </p>
             <a class="btn btn-warning font-bold" href="?option=4" role="button">¡Explorar!</a>
           </div>
@@ -230,7 +229,7 @@
 
   </div>
 </section>
-<!-- Fin Enlaces ->
+<!-- Fin Enlaces -->
 
 <!-- Área de redes sociales -->
 <section class="lightSection p-2 g-0">

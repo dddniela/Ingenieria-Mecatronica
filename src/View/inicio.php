@@ -90,7 +90,7 @@
   <h2 class="sectionTitle text-center font-bold m-3">Áreas de aprendizaje</h2>
   <div class="sectionSeparator"></div>
 
-  <div class="row g-0 text-center px-5">
+  <div class="row g-0 text-center px-5 justify-content-center">
     <p> Dentro del plan de estudios de la carrera de Ingeniería Mecatrónica, se cuenta con asignaturas diseñadas para cubrir todos los
       aspectos que se plantean en los propósitos del perfil de egreso de la carrera, asignaturas de ciencias básicas, Ciencias Sociales y Humanidades,
       Ciencias de la Ingeniería e Ingeniería Aplicada desde asignaturas como Taller de ética, desarrollo sustentable y/o Taller de investigación I y
@@ -101,6 +101,9 @@
       por cada una de las asignaturas que contiene. Adaptándose al entorno regional mediante el diseño e implementación de módulos de especialidad.
     </p>
 
+    <iframe class='aspect-video video-reticula' src="https://www.youtube.com/embed/h_6cz4TmE98" title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; 
+       clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen>
+    </iframe>
   </div>
 </section>
 <!-- Fin Áreas de aprendizaje-->

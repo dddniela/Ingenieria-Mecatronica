@@ -86,24 +86,35 @@
 <!--Fin Razones para estudiar la carrera -->
 
 <!-- Areas de aprendizaje -->
-<section class="lightSection bg-light p-2">
-  <h2 class="sectionTitle text-center font-bold m-3">Áreas de aprendizaje</h2>
-  <div class="sectionSeparator"></div>
+<section class="lightSection bg-light">
+  <div class="row px-2 g-0">
+    <div class="col-lg-6 col-12 p-4">
+      <div class="d-flex justify-content-center align-items-center w-100 h-100">
+        <div class="row g-0">
+          <h2 class="sectionTitle text-center font-bold m-3">
+            Áreas de aprendizaje
+          </h2>
+          <div class="sectionSeparator"></div>
+          <div class="col-12 px-4">
+            <p class="text-dark" style="text-align: justify;"> Dentro del plan de estudios de la carrera de Ingeniería Mecatrónica, se cuenta con asignaturas diseñadas para cubrir todos los
+              aspectos que se plantean en los propósitos del perfil de egreso de la carrera, asignaturas de ciencias básicas, Ciencias Sociales y Humanidades,
+              Ciencias de la Ingeniería e Ingeniería Aplicada desde asignaturas como Taller de ética, desarrollo sustentable y/o Taller de investigación I y
+              II, hasta aquellas que aportan conocimientos específicos del área de computación, mecánica y electrónica con lo cual permitirá al
+              estudiante generar su conocimiento, administrar e implementar tecnologías en las ramas mencionadas.
+              <br> <br>
+              Al tener este contexto dentro del plan de estudios, esto se vincula con un sistema de evaluación basado en el modelo por competencias
+              por cada una de las asignaturas que contiene. Adaptándose al entorno regional mediante el diseño e implementación de módulos de especialidad.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <div class="row g-0 text-center px-5 justify-content-center">
-    <p> Dentro del plan de estudios de la carrera de Ingeniería Mecatrónica, se cuenta con asignaturas diseñadas para cubrir todos los
-      aspectos que se plantean en los propósitos del perfil de egreso de la carrera, asignaturas de ciencias básicas, Ciencias Sociales y Humanidades,
-      Ciencias de la Ingeniería e Ingeniería Aplicada desde asignaturas como Taller de ética, desarrollo sustentable y/o Taller de investigación I y
-      II, hasta aquellas que aportan conocimientos específicos del área de computación, mecánica y electrónica con lo cual permitirá al
-      estudiante generar su conocimiento, administrar e implementar tecnologías en las ramas mencionadas.
-      <br> <br>
-      Al tener este contexto dentro del plan de estudios, esto se vincula con un sistema de evaluación basado en el modelo por competencias
-      por cada una de las asignaturas que contiene. Adaptándose al entorno regional mediante el diseño e implementación de módulos de especialidad.
-    </p>
-
-    <iframe class='aspect-video video-reticula' src="https://www.youtube.com/embed/h_6cz4TmE98" title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; 
+    <div class="col-lg-6 col-12 p-2 d-flex justify-content-center align-items-center">
+      <iframe class='aspect-video video-reticula' src="https://www.youtube.com/embed/h_6cz4TmE98" title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; 
        clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen>
-    </iframe>
+      </iframe>
+    </div>
   </div>
 </section>
 <!-- Fin Áreas de aprendizaje-->

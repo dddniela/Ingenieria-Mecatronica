@@ -29,7 +29,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/edificio-X.JPG" alt="">
+        <img class="img-fluid rounded" src="img/EdificioX.png" alt="">
       </div>
     </div>
 
@@ -160,10 +160,6 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 <section class="darkSection bg-dark p-2 px-4 col g-0">
     <h2 class="titleDarkSection text-center font-bold m-3">Instalaciones</h2>
     <div class="darkSectionSeparator"></div>
-    <h4 class="text-center text-light fw-bold fs-3">
-      Laboratorios de cómputo
-    </h4>
-  </div>
   <div class="col-12">
     <h6 class="text-center text-warning fw-bold fs-6">
       “El verdadero progreso es el que pone la tecnología al alcance de
@@ -186,31 +182,6 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
       así como la conducta de los alumnos en estos. En cada laboratorio los jefes y auxiliares son los encargados y responsables de hacer cumplir
       las disposiciones para hacer uso de las salas del laboratorio y talleres.
     </p>
-
-    <!-- <div class="row g-0">
-
-      <div class="col-lg-4 col-sm-6 text-center p-3">
-        <div class="area shadow-sm p-4 rounded-3">
-          <img class="img-fluid w-100 shadow-1-strong rounded mb-4 p-1" src="img/Reglamentos/reglamento-UDIM.png" alt="">
-          <h3 class="areaTitle text-center font-bold text-xl">Laboratorio de Ingeniería Mecánica</h3>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-sm-6 text-center p-3">
-        <div class="area shadow-sm p-4 rounded-3">
-          <img class="img-fluid w-100 shadow-1-strong rounded mb-4  p-1" src="img/Reglamentos/reglamento-LabIngMecanica.png" alt="">
-          <h3 class="areaTitle text-center font-bold text-xl">Laboratorio de Ingeniería Mecánica</h3>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-sm-6 text-center p-3">
-        <div class="area shadow-sm p-4 rounded-3">
-          <img class="img-fluid w-90 shadow-1-strong rounded mb-4  p-1" src="img/Reglamentos/reglamento-AulaLIM.png" alt="">
-          <h3 class="areaTitle text-center font-bold text-xl">Laboratorio de Aula LIM</h3>
-        </div>
-      </div>
-
-    </div> -->
 
     <!-- Galeria de imagenes -->
     <div class="row mb-4 px-2 g-0">
@@ -422,11 +393,11 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
   <h5 class="font-bold">Autores de la página:</h5>
   <p class="font-semibold">Estudiantes de la Generación 2018 - 2023</p>
   <p>Daniela Castro Rodriguez, Nancy Daniela Mendez Arpidez, Marco Gabriel Cortés Toledo,
-    Yelitza Magali Rosas Jiménez, Eric Manuel Montalvo Cruz y Gabriel Escobar Medina</p>
+    Yelitza Magali Rosas Jiménez y Gabriel Escobar Medina</p>
 </div>
 
 <div class="p-1 text-center">
   <p class="font-semibold">Agradecimientos</p>
-  <p>Fernando Martinez, Eric Manuel Montalvo Cruz e Ivan Agame Malpica </p>
+  <p>Fernando Martinez, Eric Manuel Montalvo Cruz e Ivan de Jesús Agame Malpica </p>
 </div>
 <!-- Fin Laboratorio de cómputo intensivo -->

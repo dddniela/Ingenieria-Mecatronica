@@ -215,7 +215,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
         <div tabindex="-1" aria-labelledby="modalReglamentoUDIM" aria-hidden="true" class="modal fade" id="modalReglamentoUDIM">
           <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content bg-transparent text-white text-center">
-              <img src="img/Reglamentos/reglamento-UDIM.png" alt="">
+              <img src="img/Reglamentos/reglamento-UDIM.webp" alt="">
             </div>
           </div>
         </div>
@@ -287,7 +287,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
         <div tabindex="-1" aria-labelledby="modalLMC" aria-hidden="true" class="modal fade" id="modalLMC">
           <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content bg-transparent text-white text-center">
-              <img src="img/laboratorios/UDIM/LMC-1.webp" alt="">
+              <img src="img/laboratorios/UDIM/LMC.webp" alt="">
             </div>
           </div>
         </div>
@@ -365,7 +365,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
         <div tabindex="-1" aria-labelledby="modalReglamentoAulasLIM" aria-hidden="true" class="modal fade" id="modalReglamentoAulasLIM">
           <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content bg-transparent text-white text-center">
-              <img src="img/Reglamentos/reglamento-AulaLIM.png" alt="">
+              <img src="img/Reglamentos/reglamento-AulaLIM.webp" alt="">
             </div>
           </div>
         </div>

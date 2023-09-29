@@ -9,7 +9,7 @@
 
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/IMG_194.png" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/banner-clase.webp" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption d-flex flex-column">
             <h1 class="mainTitle text-center font-bold m-2 shadow-text">Ingeniería Mecatrónica</h1>
@@ -20,7 +20,7 @@
       </div>
 
       <div class="carousel-item">
-        <img src="img/IMG_195.png" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/banner-rover.webp" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption d-flex flex-column">
             <h1 class="mainTitle text-center font-bold m-2 shadow-text">Ingeniería Mecatrónica</h1>
@@ -31,7 +31,7 @@
       </div>
 
       <div class="carousel-item">
-        <img src="img/IMG_196.png" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/IMG_89.webp" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption d-flex flex-column">
             <h1 class="mainTitle text-center font-bold m-2 shadow-text">Ingeniería Mecatrónica</h1>
@@ -110,10 +110,16 @@
       </div>
     </div>
 
-    <div class="col-lg-6 col-12 p-2 d-flex justify-content-center align-items-center">
+    <!-- <div class="col-lg-6 col-12 p-2 d-flex justify-content-center align-items-center">
       <iframe class='aspect-video video-reticula' src="https://www.youtube.com/embed/h_6cz4TmE98" title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; 
        clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen>
       </iframe>
+    </div> -->
+
+    <div class="col-lg-6 col-12 p-4 shadow-sm">
+      <div class="d-flex justify-content-center align-items-center w-100 h-100">
+        <img class="img-fluid rounded" src="img/IMG_1404.webp" alt="">
+      </div>
     </div>
   </div>
 </section>
@@ -147,7 +153,7 @@
 
     <div class="col-lg-6 col-12 p-4 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/EdificioX.png" alt="">
+        <img class="img-fluid rounded" src="img/EdificioX.webp" alt="">
       </div>
     </div>
 
@@ -214,7 +220,7 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4 rounded-3">
         <a href="http://gestion.itver.edu.mx/servicio-social/" target="_blank">
-          <img class="img-fluid w-100 shadow-1-strong rounded mb-4 p-1" src="img/Sesion/Mecatronicos-3.webp" alt="">
+          <img class="img-fluid w-100 shadow-1-strong rounded mb-4 p-1" src="img/IMG_14.webp" alt="">
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Servicio social</h3>
       </div>
@@ -232,7 +238,7 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4 rounded-3">
         <a href="?option=5">
-          <img class="img-fluid w-90 shadow-1-strong rounded mb-4  p-1" src="img/IMG_7305.JPG" alt="">
+          <img class="img-fluid w-90 shadow-1-strong rounded mb-4  p-1" src="img/IMG_80.webp" alt="">
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Comunidades</h3>
       </div>
@@ -307,20 +313,6 @@
       </div>
     </div>
   </div>
-  <!-- <div class="row g-0">
-    <h4 class="sectionTitle  text-center font-bold">Departamento de Sistemas Computacionales</h4>
-    <div class="d-flex flex-row justify-content-center">
-      <a class="mx-2" href="https://www.facebook.com/profile.php?id=100065327956621" target="_blank" style="text-decoration: none;">
-        <div class="d-flex flex-row justify-content-center">
-          <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="width: 40px" src="img/iconos/facebook.PNG" alt="">
-        </div>
-      </a>
-      <a class="mx-2" href="https://www.youtube.com/channel/UCYSUOZ6V9YRGviVvwaXOcjw" target="_blank" style="text-decoration: none;">
-        <div class="d-flex flex-row justify-content-center">
-          <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/youtube.PNG" alt="">
-        </div>
-      </a>
-    </div>
-  </div> -->
+
 </section>
 <!-- Fin Área de redes sociales -->

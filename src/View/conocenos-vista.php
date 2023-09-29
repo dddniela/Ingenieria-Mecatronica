@@ -29,7 +29,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/EdificioX.png" alt="">
+        <img class="img-fluid rounded" src="img/EdificioX.webp" alt="">
       </div>
     </div>
 
@@ -388,7 +388,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 </section>
 <!-- Fin Modals de la galería-->
 
-<div class="bg-primary pt-5"></div>
+<!-- <div class="bg-primary pt-5"></div>
 <div class="p-4 text-center">
   <h5 class="font-bold">Autores de la página:</h5>
   <p class="font-semibold">Estudiantes de la Generación 2018 - 2023</p>
@@ -399,5 +399,5 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 <div class="p-1 text-center">
   <p class="font-semibold">Agradecimientos</p>
   <p>Fernando Martinez, Eric Manuel Montalvo Cruz e Ivan de Jesús Agame Malpica </p>
-</div>
+</div> -->
 <!-- Fin Laboratorio de cómputo intensivo -->

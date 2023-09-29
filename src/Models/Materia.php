@@ -69,8 +69,11 @@ class Materia
             case 'Instrumentación':
                 $ruta_img = 'img/iconos/instrumentacion.PNG';
                 break;
+            case 'Electromagnetismo':
+                $ruta_img = 'img/iconos/electromagnetismo.PNG';
+                break;
             default:
-                $ruta_img = 'img/extraescolares/circuloDeLectura.PNG';
+                $ruta_img = 'img/iconos/circuloDeLectura.PNG';
                 break;
         }
         return $ruta_img;
@@ -184,5 +187,4 @@ class Materia
     {
         return $this->imprimir(9);
     }
-
 }

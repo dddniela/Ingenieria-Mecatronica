@@ -1,6 +1,6 @@
 <div class="row g-0">
     <div class="position-relative w-100 overflow-hidden">
-        <img class="w-100 img-fluid" src="img/IMG_7338.jpg" alt="">
+        <img class="w-100 img-fluid" src="img/banner-dron.webp" alt="">
         <div class="position-absolute top-50 start-50 translate-middle w-100">
             <div class="d-flex flex-column justify-content-center align-items-center text-center">
                 <h1 class="fw-bold text-warning shadow-text">Mapa Curricular</h1>
@@ -215,7 +215,7 @@
                                 profesional de los estudiantes de las instituciones adscritas al Tecnológico Nacional de
                                 México.
                             </p>
-                            <h5 class="font-bold text-warning" style="text-align: justify">Especialidades actuales:</h5>
+                            <h5 class="font-bold text-warning" style="text-align: justify">Especialidades vigentes:</h5>
                             <div class="bg-dark">
                                 <ul class="m-3 text-light font-bold" style="text-align: justify">
                                     <?php
@@ -230,7 +230,7 @@
 
             <div class="col-lg-6 col-12 p-2 shadow-sm">
                 <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                    <img class="img-fluid rounded" src="img/ITVER-3.jpg" alt="">
+                    <img class="img-fluid rounded" src="img/ITVER-3.webp" alt="">
                 </div>
             </div>
 
@@ -284,11 +284,9 @@
                             <div class="sectionSeparator"></div>
                         </div>
                         <div class="col-12" style="text-align: center;">
-                            <p style="text-align: justify;"> El plan de estudios de la carrera de ingeniería en sistemas
-                                computacionales ofrece
+                            <p style="text-align: justify;"> El plan de estudios de la carrera de ingeniería en mecatrónica ofrece
                                 un desarrollo integral y profesional con el objetivo de que el estudiante se pueda
-                                desenvolver en diferentes áreas
-                                de la tecnología, ofreciendo soluciones óptimas e innovadoras.
+                                desenvolver en diferentes áreas, ofreciendo soluciones óptimas e innovadoras.
                             </p>
                             <h5 class="font-bold" style="text-align: justify">Trayectoria del alumno:</h5>
                             <div class="bg-light">
@@ -400,7 +398,7 @@
 
     <!-- Residencias profesionales -->
     <div class="bg-primary pt-5">
-        <img src="img/IMG_7395.JPG" class="w-full" alt="">
+        <img src="img/IMG_7395.webp" class="w-full" alt="">
         <section class="darkSection bg-dark">
             <div class="row px-2 g-0">
                 <div class="col-lg-12 col-12 py-4">
@@ -516,7 +514,7 @@
 
             <div class="col-lg-6 col-12 p-2 shadow-sm">
                 <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                    <img class="img-fluid rounded" src="img/Sesion/Mecatronicos-3.webp" alt="">
+                    <img class="img-fluid rounded" src="img/IMG_1404.webp" alt="">
                 </div>
             </div>
 
@@ -579,7 +577,7 @@
 
                 <div class="col-lg-6 col-12 p-2 shadow-sm">
                     <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                        <img class="img-fluid rounded" src="img/IMG_3886.webp" alt="">
+                        <img class="img-fluid rounded" src="img/IMG_20.webp" alt="">
                     </div>
                 </div>
 
@@ -682,14 +680,16 @@
                                     <li>Presentar acto protocolario del proyecto de titulación integral.</li>
                                 </ul>
                             </div>
-                            <p class="text-dark" style="text-align: left;">
+                            <p class="text-dark text-break" style="text-align: left;">
                                 *Puede variar según el plan de estudios.<br><br>
                                 Solicita información en:<br>
                                 coor_titulacion@veracruz.tecnm.mx<br>
                                 titulacion_mecatronica@veracruz.tecnm.mx.
                             </p>
+
                             <div class="justify-content-center text-center">
-                                <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/3kpuhew9">Formas de titulación</a></p>
+                                <p><a class="btn-warning w-auto btn font-bold" target="_blank"
+                                        href="https://bit.ly/3t9gVaK">Formas de titulación</a></p>
                             </div>
                         </div>
                     </div>

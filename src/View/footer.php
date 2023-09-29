@@ -1,8 +1,8 @@
 </div>
 
 <footer>
-    <div class="row g-0 gap-4 p-5" style="background-color: #1B396A;">
-        <div class="col-sm text-white">
+    <div class="row g-0 gap-4" style="background-color: #1B396A;">
+        <div class="col-sm text-white p-5">
             <h5>Dirección:</h5>
             <p>Tecnológico Nacional de México Veracruz<br>
                 Calz. Miguel Angel de Quevedo 2779<br>
@@ -14,9 +14,11 @@
                 <a class="text-white text-decoration-none font-semibold" href="https://www.veracruz.tecnm.mx/index.php" target="_blank">www.veracruz.tecnm.mx</a><br>
             </p>
         </div>
-        <div class="col-sm plug-ing maps">
+        <div class="col-sm plug-ing maps p-5">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.8843702463105!2d-96.16179568525244!3d19.200252087016814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c34419964cc761%3A0xa6d7c54363cf608e!2sTecNM%20-%20Campus%20Instituto%20Tecnol%C3%B3gico%20de%20Veracruz!5e0!3m2!1ses-419!2smx!4v1651009895643!5m2!1ses-419!2smx" class="w-100 h-100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+        <p style="color: #1B396A">Daniela Castro Rodriguez, Nancy Daniela Mendez Arpidez, Marco Gabriel Cortés Toledo,
+        Yelitza Magali Rosas Jiménez y Gabriel Escobar Medina</p>
     </div>
 
     <div class="row g-0 p-5 text-white" style="background-color: #0E3129;">
@@ -111,9 +113,9 @@
             $("body, row, .bg-light, .bg--patron-blanco, .area, .lightSection, .bg--gris, .container, .bg--grisOscuro, .bg--grisMedio , .bg--patron-grisOscuro, .bg--grisAzulado, .oe-one-column, .oe-two-col, .dropdown-menu").toggleClass("bg-dark");
         });
 
-        function getElementFontSize(element){
-        //getComputedStyle nos devuelve las propiedades css de cada párrafo(elemento)
-        const elementFontSize = window.getComputedStyle(element, null).getPropertyValue('font-size');
+        function getElementFontSize(element) {
+            //getComputedStyle nos devuelve las propiedades css de cada párrafo(elemento)
+            const elementFontSize = window.getComputedStyle(element, null).getPropertyValue('font-size');
             return parseFloat(elementFontSize); //Devolvemos el total de pixeles
         }
 
@@ -141,7 +143,7 @@
             }
         }
 
-        function resetLetra(){
+        function resetLetra() {
             window.location.reload();
         }
     </script>

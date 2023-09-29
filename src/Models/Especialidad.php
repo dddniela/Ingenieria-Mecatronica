@@ -28,52 +28,46 @@ class Especialidad
     {
         $ruta_img = "";
         switch ($Area) {
-            case 'Programacion':
-                $ruta_img = 'img/iconos/programacion.PNG';
+            case 'Integración de conocimientos':
+                $ruta_img = 'img/iconos/integracion.PNG';
                 break;
-            case 'Asignaturas Comunes':
-                $ruta_img = 'img/iconos/asignaturas-comunes.PNG';
-                break;
-            case 'Diseño':
-                $ruta_img = 'img/iconos/diseño.PNG';
+            case 'Mecánica':
+                $ruta_img = 'img/iconos/mecanica.PNG';
                 break;
             case 'Eléctrica/Electrónica':
             case 'Electronica':
                 $ruta_img = 'img/iconos/electrica.PNG';
                 break;
-            case 'Ingenieria':
-                $ruta_img = 'img/iconos/ingenieria.PNG';
-                break;
-            case 'Integración de conocimientos':
-                $ruta_img = 'img/iconos/integracion.PNG';
-                break;
-            case 'Calculo':
-                $ruta_img = 'img/iconos/calculo.PNG';
-                break;
-            case 'Estadistica':
-                $ruta_img = 'img/iconos/estadistica.PNG';
-                break;
-            case 'Mecánica':
-                $ruta_img = 'img/iconos/mecanica.PNG';
-                break;
-            case 'Investigacion':
-                $ruta_img = 'img/iconos/investigacion.PNG';
+            case 'Instrumentación':
+                $ruta_img = 'img/iconos/instrumentacion.PNG';
                 break;
             case 'Matematicas Aplicadas':
             case 'Matemáticas aplicadas':
                 $ruta_img = 'img/iconos/algebra.PNG';
                 break;
-            case 'Sustentabilidad':
-                $ruta_img = 'img/iconos/sustentabilidad.PNG';
+            case 'PLC':
+                $ruta_img = 'img/iconos/plc.PNG';
                 break;
-            case 'Administracion':
-                $ruta_img = 'img/iconos/administracion.PNG';
+            case 'Microcontroladores':
+                $ruta_img = 'img/iconos/microcontroladores.PNG';
                 break;
-            case 'Instrumentación':
-                $ruta_img = 'img/iconos/instrumentacion.PNG';
+            case 'Comunicaciones':
+                $ruta_img = 'img/iconos/comunicaciones.PNG';
+                break;
+            case 'Energia':
+                $ruta_img = 'img/iconos/energia.PNG';
+                break;
+            case 'Sistemas Integrados':
+                $ruta_img = 'img/iconos/sistemas-integrados.PNG';
+                break;
+            case 'Renovables':
+                $ruta_img = 'img/iconos/renovables.PNG';
+                break;
+            case 'Red':
+                $ruta_img = 'img/iconos/red.PNG';
                 break;
             default:
-                $ruta_img = 'img/extraescolares/circuloDeLectura.PNG';
+                $ruta_img = 'img/iconos/circuloDeLectura.PNG';
                 break;
         }
         return $ruta_img;

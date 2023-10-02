@@ -42,15 +42,27 @@ $imagenCoordinador = $GLOBALS['PATH_DOCENTE'] . $coordinador['imagen'];
             <h2 class="sectionTitle text-center font-bold m-3">Departamento de Metal - Mecánica</h2>
             <div class="sectionSeparator"></div>
           </div>
-          <div class="col-12" style="text-align: center;">
-            <p style="text-align: justify;"> La carrera de Ingeniería Mecatrónica pertenece al
-              departamento de Metal - Mecánica, el objetivo principal del
-              departamento es poner al alcance de los estudiantes diferentes
-              laboratorios de cómputo para el desarrollo de sus materias
-              prácticas y la orientación en los diversos trámites requeridos a
-              lo largo de su plan de estudios, como pueden ser la liberación de
-              créditos complementarios, servicio social, residencias
-              profesionales.
+          <div class="col-12" style="text-align: justify;">
+            <p style="text-align: justify;"> El año del 2008 en ITV se elaboró un documento
+              (SOL DE APERT MECATRONICA-ITV 2008 (DGEST).pdf) para solicitar la creación de la carrera de Ingeniería Mecatrónica con la clave IMCT 2005-284,
+              en dicho documento se especifica y justifica la necesidad y pertinencia de apertura de esta carrera.
+              Después de un estudio y análisis regional se vio que ninguna institución en el estado de Veracruz la impartía, siendo un área de oportunidad
+              para el Instituto Tecnológico de Veracruz. Se pudo concluir que: <br>
+
+            <ul>
+              <li>
+                El campo de acción de los egresados de la carrera de ingeniería mecatrónica era muy amplio en la región de influencia del Instituto
+                Tecnológico de Veracruz, además tiene un futuro asegurado, según la tendencia de industrialización del estado y la región.
+              </li>
+              <li>
+                Los egresados de esta carrera podrían ser fácilmente captados por las medianas y pequeñas industrias para su desarrollo tecnológico.
+              </li>
+              <li>
+                Con la demanda propia de la región y del estado y considerando que el puerto de Veracruz es un polo de captación para estudiantes de
+                regiones vecinas, se consideró que la ingeniería mecatrónica es una excelente alternativa para ser ofertada por el Instituto Tecnológico de Veracruz.
+              </li>
+            </ul>
+            Es importante mencionar que a lo largo de 15 años de fundada esta carrera, los planes de estudio han tenido cambios, siendo el ultimo Firmado en agosto de 2010 por el Dr. Rodolfo Tuirán Gutiérrez, Subsecretario de Educación Superior y por el Dr. Carlos Alfonso García Ibarra, Director General de Educación Superior Tecnológica. Actualmente la clave del programa es IMCT-2010-229
             </p>
           </div>
         </div>

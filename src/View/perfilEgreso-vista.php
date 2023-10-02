@@ -4,6 +4,7 @@ $seccion = new Seccion();
 $seccion->setConnection($conn->getDB());
 
 $objetivo = $seccion->getObjetivo();
+$objetivo = $objetivo['data'];
 ?>
 <!-- Portada -->
 <div class="row g-0">
@@ -23,7 +24,7 @@ $objetivo = $seccion->getObjetivo();
 <section class="p-2">
     <div class="row px-2 g-0">
         <div class="col-lg-6 col-sm-12">
-           <div class="galleryContainer bg-light">
+            <div class="galleryContainer bg-light">
                 <div class="row g-0">
                     <div class="col-4 px-2">
                         <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Sesion/mecatronico-3.webp" alt="">
@@ -39,24 +40,21 @@ $objetivo = $seccion->getObjetivo();
                         <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Sesion/mecatronico-5.webp" alt="">
                         <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Sesion/mecatronico-6.webp" alt="">
                     </div>
-
                 </div>
-            </div> 
+            </div>
         </div>
         <div class="lightSection col-lg-6 col-12 p-4">
             <div class="d-flex justify-content-center align-items-center w-100 h-100">
                 <div class="row g-0">
                     <div class="col-12">
-                        <h2 class="sectionTitle text-center font-bold m-3">
-                            Objetivo general
-                        </h2>
+                        <h2 class="sectionTitle text-center font-bold m-3">Objetivo general</h2>
                         <div class="sectionSeparator"></div>
                     </div>
                     <div class="col-12" style="text-align: center;">
                         <p style="text-align: justify;">
                             <?php
                             if ($objetivo) {
-                                echo $objetivo->descripcion;
+                                echo $objetivo['descripcion'];
                             }
                             ?>
                         </p>

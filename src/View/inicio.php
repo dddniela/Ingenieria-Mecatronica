@@ -169,18 +169,18 @@
       <div class="galleryContainer bg-light">
         <div class="row g-0">
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/reynamatiascorreo.webp" alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/rolandomaronorodriguez.webp" alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'reynamatiascorreo.webp'; ?>" alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'jorgearturohernandezzarate.webp'; ?>" alt="">
           </div>
 
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/mariadolorescastrovaldes.webp" alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/angelmirandajuarez.webp" alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'mariadolorescastrovaldes.webp'; ?>" alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'angelmirandajuarez.webp'; ?>" alt="">
           </div>
 
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/eduardotoledocerritos.webp" alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/josuenietometzger.webp" alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'eduardotoledocerritos.webp'; ?>" alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'josuenietometzger.webp'; ?>" alt="">
           </div>
 
         </div>

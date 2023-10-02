@@ -13,6 +13,10 @@ $urlControl = array(
 );
 
 $programaId = 6;
+$api = 'http://localhost:3010';
+$PATH_DOCENTE =  $GLOBALS['api'] . '/imagenes/Ing-Mecatronica/docentes/';
+$PATH_COMUNIDAD =  $GLOBALS['api'] . '/imagenes/Ing-Mecatronica/comunidades/';
+
 $conn = new Conexion();
 $conn->connect();
 $docente = new Docente();

@@ -607,6 +607,22 @@ $imagenCoordinador = 'data:image/' . $type . ';base64,' . base64_encode($imagenC
             </div>
           </div>
         </div>
+
+        
+        <div class="col-md-3">
+          <a href="#!" data-bs-toggle="modal" data-bs-target="#modalLR-8">
+            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorios/Robotica/LR-8.webp" alt="">
+          </a>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalLR-8" aria-hidden="true" class="modal fade" id="modalLR-8">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/laboratorios/Robotica/LR-8.webp" alt="">
+            </div>
+          </div>
+        </div>
+        
       </div>
     </div>
 </section>

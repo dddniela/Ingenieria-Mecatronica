@@ -76,16 +76,9 @@
         </div>
         <div class="col-sm-auto justify-content-end d-none d-xl-block">
             <div class="text-right">
-                <a href="https://globalpage-prod.webex.com/join?surl=https%3A%2F%2Fsignin.webex.com%2Fcollabs%2F%23%2Fmeetings%2Fjoinbynumber%3FTrackID%3D%26hbxref%3D%26goid%3Dattend-meeting" title="Microsoft Teams" target="_blank" style="text-decoration: none;">
-                    <img loading='lazy' height="40" src="img/encabezado/microsoft_teams.png" alt="MT">
-                </a>
                 <a href="https://login.microsoftonline.com/?whr=tecnm.mx" title="Correo Institucional" target="_blank" style="text-decoration: none;">
                     <img loading='lazy' height="40" src="img/encabezado/correo-icono.png" alt="Buzón">
                 </a>
-                <a href="pdf/Calendario_Academico_2019-2020.pdf" title="Calendario Académico" target="_blank" style="text-decoration: none;">
-                    <img loading='lazy' height="40" src="img/encabezado/calendario-icono.png" alt="Calendario Académico">
-                </a>
-
                 <!-- Traductor -->
                 <a href='?idioma=mandarin#googtrans(es|zh-CN)' class='mr-3' style="text-decoration: none;">
                     <img height="40" src='img/encabezado/china-icono.png' title='Mandarín' alt='Idioma Mandarín'>
@@ -102,9 +95,6 @@
                 <a href='?idioma=coreano#googtrans(es|ko)' class='mr-3' style="text-decoration: none;">
                     <img height="40" src='img/encabezado/corea-icono.png' title='Español' alt='Idioma Español'>
                 </a>
-
-                <img loading='lazy' height="40" title="Accesibilidad" src="img/encabezado/ojo-icono.png" alt="Débil Visual" />
-
                 
                 <button class="btnCambioTexto" onclick="return cambiarTexto('+')">A+</button>
                 <button class="btnCambioTexto" onclick="return cambiarTexto('-')">A-</button>
@@ -154,6 +144,7 @@
                             <li><a class="dropdown-item hover-blue" target="_blank" href="https://elibro.net/es/lc/itver/login_usuario/">Biblioteca eLibro</a></li>
                             <li><a class="dropdown-item hover-blue" target="_blank" href="https://www.veracruz.tecnm.mx/index.php/normateca/documentos-operativos/manuales">Manuales del ITVER</a></li>
                             <li><a class="dropdown-item hover-blue" target="_blank" href="https://bit.ly/3KVYAol">Reglamento de Estudiantes del TecNM</a></li>
+                            <li><a class="dropdown-item hover-blue" target="_blank" href="https://www.veracruz.tecnm.mx/index.php/enlaces/articulos/347-calendario-escolar-2019">Calendario Escolar</a></li>
                         </ul>
                     </li>
                 </ul>

@@ -1,30 +1,30 @@
 <?php
-$docenteImagen1 = $GLOBALS['PATH_DOCENTE'] . 'reynaMatiasCorreo.webp';
+$docenteImagen1 = $GLOBALS['PATH_DOCENTE'] . 'juanManuelBucioBallado.webp';
 $type = pathinfo($docenteImagen1, PATHINFO_EXTENSION);
 $docenteImagen1 = file_get_contents($docenteImagen1);
 $docenteImagen1 = 'data:image/' . $type . ';base64,' . base64_encode($docenteImagen1);
 
-$docenteImagen2 = $GLOBALS['PATH_DOCENTE'] . 'martinHernandezOrdonez.webp';
+$docenteImagen2 = $GLOBALS['PATH_DOCENTE'] . 'jorgeArturoHernandezZarate.webp';
 $type = pathinfo($docenteImagen2, PATHINFO_EXTENSION);
 $docenteImagen2 = file_get_contents($docenteImagen2);
 $docenteImagen2 = 'data:image/' . $type . ';base64,' . base64_encode($docenteImagen2);
 
-$docenteImagen3 = $GLOBALS['PATH_DOCENTE'] . 'mariaDoloresCastroValdes.webp';
+$docenteImagen3 = $GLOBALS['PATH_DOCENTE'] . 'rolandoMaronoRodriguez.webp';
 $type = pathinfo($docenteImagen3, PATHINFO_EXTENSION);
 $docenteImagen3 = file_get_contents($docenteImagen3);
 $docenteImagen3 = 'data:image/' . $type . ';base64,' . base64_encode($docenteImagen3);
 
-$docenteImagen4 = $GLOBALS['PATH_DOCENTE'] . 'eduardoToledoCerritos.webp';
+$docenteImagen4 = $GLOBALS['PATH_DOCENTE'] . 'martinHernandezOrdonez.webp';
 $type = pathinfo($docenteImagen4, PATHINFO_EXTENSION);
 $docenteImagen4 = file_get_contents($docenteImagen4);
 $docenteImagen4 = 'data:image/' . $type . ';base64,' . base64_encode($docenteImagen4);
 
-$docenteImagen5 = $GLOBALS['PATH_DOCENTE'] . 'cesarManuelRiveraEspinosa.webp';
+$docenteImagen5 = $GLOBALS['PATH_DOCENTE'] . 'angelMirandaJuarez.webp';
 $type = pathinfo($docenteImagen5, PATHINFO_EXTENSION);
 $docenteImagen5 = file_get_contents($docenteImagen5);
 $docenteImagen5 = 'data:image/' . $type . ';base64,' . base64_encode($docenteImagen5);
 
-$docenteImagen6 = $GLOBALS['PATH_DOCENTE'] . 'josueNietoMetzger.webp';
+$docenteImagen6 = $GLOBALS['PATH_DOCENTE'] . 'mariaDoloresCastroValdes.webp';
 $type = pathinfo($docenteImagen6, PATHINFO_EXTENSION);
 $docenteImagen6 = file_get_contents($docenteImagen6);
 $docenteImagen6 = 'data:image/' . $type . ';base64,' . base64_encode($docenteImagen6);
@@ -41,7 +41,7 @@ $docenteImagen6 = 'data:image/' . $type . ';base64,' . base64_encode($docenteIma
 
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/banner-clase.webp" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/aula.webp" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption d-flex flex-column">
             <h1 class="mainTitle text-center font-bold m-2 shadow-text">Ingeniería Mecatrónica</h1>
@@ -52,7 +52,7 @@ $docenteImagen6 = 'data:image/' . $type . ';base64,' . base64_encode($docenteIma
       </div>
 
       <div class="carousel-item">
-        <img src="img/banner-rover.webp" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/rover.webp" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption d-flex flex-column">
             <h1 class="mainTitle text-center font-bold m-2 shadow-text">Ingeniería Mecatrónica</h1>
@@ -63,7 +63,7 @@ $docenteImagen6 = 'data:image/' . $type . ';base64,' . base64_encode($docenteIma
       </div>
 
       <div class="carousel-item">
-        <img src="img/IMG_89.webp" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/alumnos_brazokuka.webp" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption d-flex flex-column">
             <h1 class="mainTitle text-center font-bold m-2 shadow-text">Ingeniería Mecatrónica</h1>

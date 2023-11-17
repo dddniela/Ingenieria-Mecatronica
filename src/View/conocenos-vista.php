@@ -377,7 +377,7 @@ $imagenCoordinador = 'data:image/' . $type . ';base64,' . base64_encode($imagenC
 
       <div>
         <h2 class="titleDarkSection font-bold m-3">
-          Laboratorios del Edificio X
+          Laboratorios del Edificio X - Alfonso C. García Reynoso
         </h2>
         <div class="darkSectionSeparator"></div>
 
@@ -457,7 +457,7 @@ $imagenCoordinador = 'data:image/' . $type . ';base64,' . base64_encode($imagenC
       </div>
 
       <h4 class="text-center text-light fw-bold fs-4">
-        Laboratorio MPS
+        Laboratorio de Automatización Mecatrónica MPS
       </h4>
 
       <div class="row gx-3">
@@ -506,7 +506,7 @@ $imagenCoordinador = 'data:image/' . $type . ';base64,' . base64_encode($imagenC
       </div>
 
       <h4 class="text-center text-light fw-bold fs-4">
-        Laboratorio de Robótica
+        Laboratorio de Robótica e Inteligencia Artificial
       </h4>
 
       <div class="row gx-3">

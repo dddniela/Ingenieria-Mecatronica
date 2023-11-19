@@ -62,6 +62,9 @@ class Especialidad
             case 'Integración de conocimientos':
                 $ruta_img = 'img/iconos/integracion.PNG';
                 break;
+            case 'Calculo':
+                $ruta_img = 'img/iconos/calculo.PNG';
+                break;
             case 'Mecánica':
                 $ruta_img = 'img/iconos/mecanica.PNG';
                 break;
@@ -69,7 +72,7 @@ class Especialidad
             case 'Electronica':
                 $ruta_img = 'img/iconos/electrica.PNG';
                 break;
-            case 'Instrumentación':
+            case 'Instrumentacion':
                 $ruta_img = 'img/iconos/instrumentacion.PNG';
                 break;
             case 'Matematicas Aplicadas':

@@ -60,51 +60,55 @@ class Especialidad
         $ruta_img = "";
         switch ($Area) {
             case 'Integración de conocimientos':
-                $ruta_img = 'img/iconos/integracion.PNG';
+                $ruta_img = 'integracion.PNG';
                 break;
             case 'Calculo':
-                $ruta_img = 'img/iconos/calculo.PNG';
+                $ruta_img = 'calculo.PNG';
                 break;
             case 'Mecánica':
-                $ruta_img = 'img/iconos/mecanica.PNG';
+                $ruta_img = 'mecanica.PNG';
                 break;
             case 'Eléctrica/Electrónica':
             case 'Electronica':
-                $ruta_img = 'img/iconos/electrica.PNG';
+                $ruta_img = 'electrica.PNG';
                 break;
             case 'Instrumentacion':
-                $ruta_img = 'img/iconos/instrumentacion.PNG';
+                $ruta_img = 'instrumentacion.PNG';
                 break;
             case 'Matematicas Aplicadas':
             case 'Matemáticas aplicadas':
-                $ruta_img = 'img/iconos/algebra.PNG';
+                $ruta_img = 'algebra.PNG';
                 break;
             case 'PLC':
-                $ruta_img = 'img/iconos/plc.PNG';
+                $ruta_img = 'plc.PNG';
                 break;
             case 'Microcontroladores':
-                $ruta_img = 'img/iconos/microcontroladores.PNG';
+                $ruta_img = 'microcontroladores.PNG';
                 break;
             case 'Comunicaciones':
-                $ruta_img = 'img/iconos/comunicaciones.PNG';
+                $ruta_img = 'comunicaciones.PNG';
                 break;
             case 'Energia':
-                $ruta_img = 'img/iconos/energia.PNG';
+                $ruta_img = 'energia.PNG';
                 break;
             case 'Sistemas Integrados':
-                $ruta_img = 'img/iconos/sistemas-integrados.PNG';
+                $ruta_img = 'sistemas-integrados.PNG';
                 break;
             case 'Renovables':
-                $ruta_img = 'img/iconos/renovables.PNG';
+                $ruta_img = 'renovables.PNG';
                 break;
             case 'Red':
-                $ruta_img = 'img/iconos/red.PNG';
+                $ruta_img = 'red.PNG';
                 break;
             default:
-                $ruta_img = 'img/iconos/circuloDeLectura.PNG';
+                $ruta_img = 'circuloDeLectura.PNG';
                 break;
         }
-        return $ruta_img;
+        
+        $type = pathinfo($ruta_img, PATHINFO_EXTENSION);
+        $urlImagen = file_get_contents($GLOBALS['PATH_ICONO'] . $ruta_img);
+        $urlImagen = 'data:image/' . $type . ';base64,' . base64_encode($urlImagen);
+        return $urlImagen;
     }
 
 

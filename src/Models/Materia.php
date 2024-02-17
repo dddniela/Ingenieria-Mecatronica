@@ -26,57 +26,61 @@ class Materia
         $ruta_img = "";
         switch ($Area) {
             case 'Programacion':
-                $ruta_img = 'img/iconos/programacion.PNG';
+                $ruta_img = 'programacion.PNG';
                 break;
             case 'Asignaturas Comunes':
-                $ruta_img = 'img/iconos/asignaturas-comunes.PNG';
+                $ruta_img = 'asignaturas-comunes.PNG';
                 break;
             case 'Diseño':
-                $ruta_img = 'img/iconos/diseño.PNG';
+                $ruta_img = 'diseño.PNG';
                 break;
             case 'Eléctrica/Electrónica':
             case 'Electronica':
-                $ruta_img = 'img/iconos/electrica.PNG';
+                $ruta_img = 'electrica.PNG';
                 break;
             case 'Ingenieria':
-                $ruta_img = 'img/iconos/ingenieria.PNG';
+                $ruta_img = 'ingenieria.PNG';
                 break;
             case 'Integración de conocimientos':
-                $ruta_img = 'img/iconos/integracion.PNG';
+                $ruta_img = 'integracion.PNG';
                 break;
             case 'Calculo':
-                $ruta_img = 'img/iconos/calculo.PNG';
+                $ruta_img = 'calculo.PNG';
                 break;
             case 'Estadistica':
-                $ruta_img = 'img/iconos/estadistica.PNG';
+                $ruta_img = 'estadistica.PNG';
                 break;
             case 'Mecánica':
-                $ruta_img = 'img/iconos/mecanica.PNG';
+                $ruta_img = 'mecanica.PNG';
                 break;
             case 'Investigacion':
-                $ruta_img = 'img/iconos/investigacion.PNG';
+                $ruta_img = 'investigacion.PNG';
                 break;
             case 'Matematicas Aplicadas':
             case 'Matemáticas aplicadas':
-                $ruta_img = 'img/iconos/algebra.PNG';
+                $ruta_img = 'algebra.PNG';
                 break;
             case 'Sustentabilidad':
-                $ruta_img = 'img/iconos/sustentabilidad.PNG';
+                $ruta_img = 'sustentabilidad.PNG';
                 break;
             case 'Administracion':
-                $ruta_img = 'img/iconos/administracion.PNG';
+                $ruta_img = 'administracion.PNG';
                 break;
             case 'Instrumentación':
-                $ruta_img = 'img/iconos/instrumentacion.PNG';
+                $ruta_img = 'instrumentacion.PNG';
                 break;
             case 'Electromagnetismo':
-                $ruta_img = 'img/iconos/electromagnetismo.PNG';
+                $ruta_img = 'electromagnetismo.PNG';
                 break;
             default:
-                $ruta_img = 'img/iconos/circuloDeLectura.PNG';
+                $ruta_img = 'circuloDeLectura.PNG';
                 break;
         }
-        return $ruta_img;
+        
+        $type = pathinfo($ruta_img, PATHINFO_EXTENSION);
+        $urlImagen = file_get_contents($GLOBALS['PATH_ICONO'] . $ruta_img);
+        $urlImagen = 'data:image/' . $type . ';base64,' . base64_encode($urlImagen);
+        return $urlImagen;
     }
 
 
